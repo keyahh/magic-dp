@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=coilFlames] at @s run function magic:spells/21/main

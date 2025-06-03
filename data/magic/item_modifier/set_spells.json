@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "magic:ui"
+  },
+  "ops": [
+    {
+      "source": "spells",
+      "target": "spells",
+      "op": "replace"
+    }
+  ]
+}

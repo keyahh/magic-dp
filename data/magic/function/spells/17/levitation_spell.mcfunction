@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Levitation Spell"},custom_data={spellID:17,sequence:["w","w","w","w"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-W-W-W"},{"color":"dark_gray","italic":true,"text":"Causes target to levitate upwards."}]] 1

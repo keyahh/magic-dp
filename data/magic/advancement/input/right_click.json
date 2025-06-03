@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{is_wand:1}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magic:input/rclick/rclick"
+  }
+}

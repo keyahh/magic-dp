@@ -1,0 +1,2 @@
+execute if score #magicDestruction magic.setting matches 0 run return run scoreboard players set #magicDestruction magic.setting 1
+execute if score #magicDestruction magic.setting matches 1 run return run scoreboard players set #magicDestruction magic.setting 0

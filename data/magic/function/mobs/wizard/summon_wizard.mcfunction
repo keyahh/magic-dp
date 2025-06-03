@@ -1,0 +1,1 @@
+function animated_java:wizard/summon {args:{variants:"default"}}

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=banishSpell] at @s run function magic:spells/11/main

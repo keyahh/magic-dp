@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Magic Shield Spell"},custom_data={spellID:8,sequence:["w","d","s","a","w"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-D-S-A-W"},{"color":"dark_gray","italic":true,"text":"Creates a portable magic shield."}]] 1

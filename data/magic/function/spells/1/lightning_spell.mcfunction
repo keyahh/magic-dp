@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Fulmination Spell"},custom_data={spellID:1,sequence:["w","a","d","a","d","a","s"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-A-D-A-D-A-S"},{"color":"dark_gray","italic":true,"text":"Shoots a jagged fork of lightning."}]] 1

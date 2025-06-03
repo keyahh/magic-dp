@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=bodyEnhance] at @s run function magic:spells/18/main

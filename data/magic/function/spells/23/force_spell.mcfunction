@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Force Spell"},custom_data={spellID:23,sequence:["w","s","a","d","a"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-S-A-D-A"},{"color":"dark_gray","italic":true,"text":"Pushes away all entities within a small radius."}]] 1

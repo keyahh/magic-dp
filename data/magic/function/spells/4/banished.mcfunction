@@ -1,0 +1,1 @@
+function magic:spells/4/hit_block

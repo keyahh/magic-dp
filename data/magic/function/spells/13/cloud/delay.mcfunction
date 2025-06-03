@@ -1,0 +1,1 @@
+execute as @e[type=block_display,tag=newCloud] run function magic:spells/13/cloud/rotate

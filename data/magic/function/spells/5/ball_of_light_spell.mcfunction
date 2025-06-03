@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Ball of Light Spell"},custom_data={spellID:5,sequence:["w","a","s","d"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-A-S-D"},{"color":"dark_gray","italic":true,"text":"Creates a slow moving ball of light."}]] 1

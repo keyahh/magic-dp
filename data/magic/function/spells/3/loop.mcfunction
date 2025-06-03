@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=disarmSpell] at @s run function magic:spells/3/main

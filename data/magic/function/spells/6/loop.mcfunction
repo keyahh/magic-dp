@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=witherSpell] at @s run function magic:spells/6/main

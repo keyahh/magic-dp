@@ -1,0 +1,40 @@
+scoreboard players add @s magic.temp 2
+execute if score @s magic.temp matches 36.. run return run scoreboard players set @s magic.temp 0
+
+execute if score @s magic.temp matches 0 rotated ~90 -360 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 1 rotated ~90 -340 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 2 rotated ~90 -320 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 3 rotated ~90 -300 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 4 rotated ~90 -280 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 5 rotated ~90 -260 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 6 rotated ~90 -240 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 7 rotated ~90 -220 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 8 rotated ~90 -200 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 9 rotated ~90 -180 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 10 rotated ~90 -160 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 11 rotated ~90 -140 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 12 rotated ~90 -120 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 13 rotated ~90 -100 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 14 rotated ~90 -80 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 15 rotated ~90 -60 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 16 rotated ~90 -40 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 17 rotated ~90 -20 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 18 rotated ~90 0 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 19 rotated ~90 20 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 20 rotated ~90 40 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 21 rotated ~90 60 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 22 rotated ~90 80 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 23 rotated ~90 100 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 24 rotated ~90 120 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 25 rotated ~90 140 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 26 rotated ~90 160 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 27 rotated ~90 180 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 28 rotated ~90 200 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 29 rotated ~90 220 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 30 rotated ~90 240 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 31 rotated ~90 260 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 32 rotated ~90 280 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 33 rotated ~90 300 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 34 rotated ~90 320 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 35 rotated ~90 340 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force
+execute if score @s magic.temp matches 36 rotated ~90 360 run return run particle minecraft:flame ^ ^ ^1 0 0 0 0.01 5 force

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=magicMissile] at @s run function magic:spells/14/main

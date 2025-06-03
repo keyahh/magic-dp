@@ -1,0 +1,1 @@
+execute as @e[type=#magic:magic_user,tag=hasMagicShield] at @s run function magic:spells/8/main

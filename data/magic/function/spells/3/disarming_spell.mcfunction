@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Disarming Spell"},custom_data={spellID:3,sequence:["a","s","w","d"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"A-S-W-D"},{"color":"dark_gray","italic":true,"text":"Forces target to drop their weapon."}]] 1

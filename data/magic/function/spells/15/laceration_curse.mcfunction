@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Laceration Curse"},custom_data={spellID:15,sequence:["s","w","s","w","d","a"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-W-S-W-D-A"},{"color":"dark_gray","italic":true,"text":"Slashes target with an invisible blade, causing blood loss."}]] 1

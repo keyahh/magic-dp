@@ -1,0 +1,1 @@
+execute summon block_display run function magic:spells/13/cloud/setup_cloud

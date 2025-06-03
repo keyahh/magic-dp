@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=levitate] at @s run function magic:spells/17/main

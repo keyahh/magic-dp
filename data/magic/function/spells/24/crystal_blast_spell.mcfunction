@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Crystal Blast Spell"},custom_data={spellID:24,sequence:["s","s","w","d","a","d"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-S-W-D-A-D"},{"color":"dark_gray","italic":true,"text":"Shoot out a wave of crystal fragments."}]] 1

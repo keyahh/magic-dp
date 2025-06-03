@@ -1,0 +1,2 @@
+summon block_display ~ ~ ~ {interpolation_duration:100,teleport_duration:1,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[152f,123f,53f,24f],translation:[0f,0f,0f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:shroomlight"}}
+#rotate @n[type=block_display,tag=newCloud] ~360 ~

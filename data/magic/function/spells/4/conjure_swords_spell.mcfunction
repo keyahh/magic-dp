@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Sword Conjuration Spell"},custom_data={spellID:4,sequence:["s","a","d","w","w"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-A-D-W-W"},{"color":"dark_gray","italic":true,"text":"Conjures and shoots sharp swords."}]] 1

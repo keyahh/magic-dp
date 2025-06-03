@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Wolf Pack Conjuration Spell"},custom_data={spellID:20,sequence:["a","s","a","d","d","s"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"A-S-A-D-D-S"},{"color":"dark_gray","italic":true,"text":"Conjures a pack of temporary wolves."}]] 1

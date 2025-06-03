@@ -1,0 +1,10 @@
+{
+	"values": [
+		"animated_java:cutter/root/on_tick",
+		"animated_java:laceration/root/on_tick",
+		"animated_java:lightning/root/on_tick",
+		"animated_java:shield/root/on_tick",
+		"animated_java:sword_projectile/root/on_tick",
+		"animated_java:wizard/root/on_tick"
+	]
+}

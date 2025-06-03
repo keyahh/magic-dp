@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Coiling Flames Spell"},custom_data={spellID:21,sequence:["w","d","a","s","d","a"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-D-A-S-D-A"},{"color":"dark_gray","italic":true,"text":"Shoot out homing flames guranteed to inflict magic burns."}]] 1

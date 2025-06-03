@@ -1,0 +1,1 @@
+execute as @e[type=block_display,tag=crownAnchor,tag=!flicker] at @s run function magic:spells/13/main

@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Mana Chains Spell"},custom_data={spellID:10,sequence:["s","w","s","w","d","s","a"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-W-S-W-D-S-A"},{"color":"dark_gray","italic":true,"text":"Creates a boundary of hellfire, repelling and burning away intruders."}]] 1

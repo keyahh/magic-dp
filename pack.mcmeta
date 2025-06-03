@@ -1,0 +1,14 @@
+{
+	"pack": {
+		"pack_format": 71,
+		"description": "magic system by squidgga"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "animated_java",
+				"formats": 71
+			}
+		]
+	}
+}

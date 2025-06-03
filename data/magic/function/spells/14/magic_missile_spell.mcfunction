@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Magic Missile Spell"},custom_data={spellID:14,sequence:["w","s","d","w"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-S-D-W"},{"color":"dark_gray","italic":true,"text":"Shoots a magic projectile dealing minor damage."}]] 1

@@ -1,0 +1,33 @@
+{"values":
+    [
+        "#minecraft:climbable",
+        "#minecraft:banners",
+        "#minecraft:fire",
+        "#minecraft:flowers",
+        "#minecraft:pressure_plates",
+        "#minecraft:saplings",
+        "#minecraft:crops",
+        "#minecraft:rails",
+        "#minecraft:signs",
+        "#minecraft:buttons",
+        "#minecraft:air",
+        "#minecraft:anvil",
+        "#minecraft:beds",
+        "#minecraft:campfires",
+        "#minecraft:cauldrons",
+        "#minecraft:leaves",
+        "#minecraft:trapdoors",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:snow",
+        "minecraft:short_grass",
+        "minecraft:tall_grass",
+        "minecraft:fern",
+        "minecraft:large_fern",
+        "minecraft:torch",
+        "minecraft:soul_torch",
+        "minecraft:redstone_torch",
+        "minecraft:sugar_cane",
+        "minecraft:light"
+    ]
+}

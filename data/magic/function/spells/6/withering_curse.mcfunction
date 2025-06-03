@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Withering Curse"},custom_data={spellID:6,sequence:["s","s","w","a","d"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-S-W-A-D"},{"color":"dark_gray","italic":true,"text":"Shoots a bolt of decay."}]] 1

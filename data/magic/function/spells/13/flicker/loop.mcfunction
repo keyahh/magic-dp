@@ -1,0 +1,1 @@
+execute as @e[type=block_display,tag=thinBeam] at @s run function magic:spells/13/flicker/main

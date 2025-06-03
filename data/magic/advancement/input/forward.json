@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "input": {
+              "forward": true,
+              "backward": false,
+              "left": false,
+              "right": false
+            }
+          }
+        },
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{is_wand:1}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magic:input/forward/tapped"
+  }
+}

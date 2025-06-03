@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Slashing Spell"},custom_data={spellID:22,sequence:["d","w","a","w","d"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"D-W-A-W-D"},{"color":"dark_gray","italic":true,"text":"Shoot out a wide cutting arc."}]] 1

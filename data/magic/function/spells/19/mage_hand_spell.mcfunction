@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Mage Hand Spell"},custom_data={spellID:19,sequence:["a","w","d","w","s","w"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"A-W-D-W-S-S-W"},{"color":"dark_gray","italic":true,"text":"Allows caster to pick up and throw small mobs and blocks."}]] 1

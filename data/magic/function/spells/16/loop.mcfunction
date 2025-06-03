@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=ripple] at @s run function magic:spells/16/main

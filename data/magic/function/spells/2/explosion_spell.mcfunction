@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Explosion Spell"},custom_data={spellID:2,sequence:["d","s","a","w","s","w"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"D-S-A-W-S-W"},{"color":"dark_gray","italic":true,"text":"Shoots out a large explosive bolt."}]] 1

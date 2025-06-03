@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Rippling Earth Spell"},custom_data={spellID:16,sequence:["a","d","a","s","w","s","s"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"A-D-A-S-W-S-S"},{"color":"dark_gray","italic":true,"text":"Causes the ground to rise into a wave."}]] 1

@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Teleport Spell"},custom_data={spellID:7,sequence:["w","w","w","s","s"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-W-W-S-S"},{"color":"dark_gray","italic":true,"text":"Teleport forward."}]] 1

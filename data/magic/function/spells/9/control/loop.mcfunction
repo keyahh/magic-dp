@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=manaChainAnchor] at @s run function magic:spells/9/control/main
