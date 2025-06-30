@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=windPiercer] at @s run function magic:spells/26/main

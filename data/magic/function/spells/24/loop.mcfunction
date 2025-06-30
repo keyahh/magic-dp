@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=crystalBlast] at @s run function magic:spells/24/main

@@ -2,6 +2,7 @@
 	"replace": false,
 	"values": [
 		"minecraft:player",
-		"minecraft:wandering_trader"
+		"minecraft:wandering_trader",
+		"minecraft:wither_skeleton"
 	]
 }

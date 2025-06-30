@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Holy Spears Spell"},custom_data={spellID:25,sequence:["w","d","a","s","d","a","s","d"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-D-A-S-D-A-S-D"},{"color":"dark_gray","italic":true,"text":"Shoot out a barrage of holy spears."}]] 1

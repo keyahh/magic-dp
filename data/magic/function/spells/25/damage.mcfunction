@@ -1,0 +1,2 @@
+damage @s[type=#magic:holy_vulnerable] 52 player_attack by @n[type=#magic:magic_user,tag=thisPlayer]
+damage @s[type=!#magic:holy_vulnerable] 35 player_attack by @n[type=#magic:magic_user,tag=thisPlayer]

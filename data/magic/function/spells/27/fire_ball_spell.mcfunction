@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Fire Ball Spell"},custom_data={spellID:27,sequence:["d","a","s","a","d","w","s"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"D-A-S-A-D-W-S"},{"color":"dark_gray","italic":true,"text":"Launch a large ball of flames in an arch."}]] 1

@@ -1,0 +1,2 @@
+summon wither_skeleton ~ ~ ~ {Silent:1b,DeathLootTable:"magic:empty",PersistenceRequired:1b,CanPickUpLoot:0b,Tags:["magic","lichBase","newLichBase"],equipment:{mainhand:{id:"minecraft:bow",count:1,components:{"minecraft:item_model":"minecraft:air","minecraft:enchantments":{"magic:mobs/lich_base":1}}}},drop_chances:{mainhand:0.000}}
+execute as @n[type=wither_skeleton,tag=newLichBase] at @s run function magic:mobs/lich/setup_base

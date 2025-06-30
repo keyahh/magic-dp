@@ -55,5 +55,8 @@ schedule function magic:spells/16/loop 10t append
 schedule function magic:spells/17/loop 10t append
 schedule function magic:spells/18/loop 10t append
 schedule function magic:spells/21/loop 10t append
+schedule function magic:spells/24/loop 10t append
+schedule function magic:spells/25/loop 10t append
+schedule function magic:spells/26/loop 10t append
 
 forceload add 0 0

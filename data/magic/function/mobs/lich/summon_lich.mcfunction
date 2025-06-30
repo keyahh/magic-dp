@@ -1,0 +1,1 @@
+function animated_java:lich/summon {args:{variants:"default"}}
