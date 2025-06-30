@@ -1,3 +1,3 @@
-summon wandering_trader ~ ~ ~ {Silent:1b,PersistenceRequired:1b,Health:150f,DespawnDelay:9999999,Tags:["magic","wizBase","newWizBase"],equipment:{chest:{id:"minecraft:poisonous_potato",count:1,components:{"minecraft:enchantments":{"magic:mobs/wizard_base":1}}}},drop_chances:{chest:0.000},attributes:[{id:"minecraft:max_health",base:150}],Offers:{}}
+summon wandering_trader ~ ~ ~ {Silent:1b,PersistenceRequired:1b,Health:150f,DespawnDelay:9999999,Tags:["magic","wizBase","newWizBase","boss"],equipment:{chest:{id:"minecraft:poisonous_potato",count:1,components:{"minecraft:enchantments":{"magic:mobs/wizard_base":1}}}},drop_chances:{chest:0.000},attributes:[{id:"minecraft:max_health",base:150}],Offers:{}}
 
 execute as @n[type=wandering_trader,tag=newWizBase] at @s run function magic:mobs/wizard/setup_base

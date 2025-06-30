@@ -4,6 +4,7 @@ $data merge entity $(bone_hair_side1) {transformation: [-1f,0f,0f,0.2969f,0f,0.9
 $data merge entity $(bone_beard) {transformation: [-1f,0f,0f,0f,0f,0.9998f,0.019f,1.5663f,0f,0.019f,-0.9998f,0.2443f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_head) {transformation: [-1f,0f,0f,0f,0f,0.9608f,0.2771f,1.7344f,0f,0.2771f,-0.9608f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_body) {transformation: [-1.1207f,0f,0.0981f,0f,0f,1.125f,0f,1.0625f,-0.0981f,0f,-1.1207f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(bone_scythe) {transformation: [-1.604f,0.3734f,-0.454f,-0.9212f,-0.5862f,-0.917f,1.3168f,1.238f,0.0442f,1.3922f,0.9891f,0.0132f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(bone_right2) {transformation: [-0.2657f,0.9476f,-0.1774f,-0.6061f,0.7708f,0.3194f,0.5512f,1.3308f,0.579f,0.0097f,-0.8153f,0.0073f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(bone_scythe) {transformation: [-1.6709f,-0.3557f,0.0098f,-0.9152f,0.2235f,-1.0121f,1.358f,1.2232f,-0.277f,1.3295f,1.0364f,0.0357f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(bone_right2) {transformation: [-0.2657f,0.9293f,-0.2566f,-0.6061f,0.7708f,0.3647f,0.5224f,1.3308f,0.579f,-0.059f,-0.8132f,0.0073f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right1) {transformation: [0.2158f,0.9396f,-0.2657f,-1.6719f,-0.5378f,0.3415f,0.7708f,1.136f,0.815f,-0.0234f,0.579f,-0.2225f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:lich/animations/cast2/zzz/frames/17_root_commands

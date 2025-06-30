@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 data remove storage aj:temp args
 execute store result storage aj:temp args.frame int 1 run scoreboard players get @s aj.dodge_left.frame
 function animated_java:lich/animations/dodge_left/zzz/apply_frame with storage aj:temp args
-execute if score @s aj.dodge_left.frame matches 1 run return run function animated_java:lich/animations/dodge_left/stop
+execute if score @s aj.dodge_left.frame matches 13 run return run function animated_java:lich/animations/dodge_left/stop
 scoreboard players add @s aj.dodge_left.frame 1
