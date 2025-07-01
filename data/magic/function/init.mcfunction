@@ -16,6 +16,7 @@ scoreboard objectives add magic.sCD dummy
 scoreboard objectives add magic.aCD dummy
 scoreboard objectives add magic.dCD dummy
 scoreboard objectives add magic.rclickCD dummy
+scoreboard objectives add magic.shift minecraft.custom:minecraft.sneak_time
 
 scoreboard objectives add magic.shieldID dummy
 scoreboard objectives add magic.shieldTime dummy

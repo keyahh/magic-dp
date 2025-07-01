@@ -2,6 +2,7 @@
 execute unless entity @s[tag=aj.lich.root] run return 0
 execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:global/root/on_load
 execute if entity @s[tag=aj.lich.animation.still.playing] run function animated_java:lich/animations/still/zzz/on_tick
+execute if entity @s[tag=aj.lich.animation.die.playing] run function animated_java:lich/animations/die/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.fake_die.playing] run function animated_java:lich/animations/fake_die/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.walk.playing] run function animated_java:lich/animations/walk/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.dash.playing] run function animated_java:lich/animations/dash/zzz/on_tick
@@ -9,6 +10,7 @@ execute if entity @s[tag=aj.lich.animation.pray.playing] run function animated_j
 execute if entity @s[tag=aj.lich.animation.swing1.playing] run function animated_java:lich/animations/swing1/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.swing2.playing] run function animated_java:lich/animations/swing2/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.ground_cutter.playing] run function animated_java:lich/animations/ground_cutter/zzz/on_tick
+execute if entity @s[tag=aj.lich.animation.slam.playing] run function animated_java:lich/animations/slam/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.cast1.playing] run function animated_java:lich/animations/cast1/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.cast2.playing] run function animated_java:lich/animations/cast2/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.shotgun.playing] run function animated_java:lich/animations/shotgun/zzz/on_tick

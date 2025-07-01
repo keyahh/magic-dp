@@ -5,19 +5,7 @@
     "type_specific": {
       "type": "minecraft:player",
       "input": {
-        "forward": true,
-        "backward": false,
-        "left": false,
-        "right": false
-      }
-    },
-    "equipment": {
-      "mainhand": {
-        "components": {
-          "minecraft:custom_data": {
-            "is_wand": true
-          }
-        }
+        "forward": true
       }
     }
   }
