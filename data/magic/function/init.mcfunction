@@ -10,6 +10,7 @@ scoreboard objectives add magic.temp dummy
 scoreboard objectives add magic.atkCD dummy
 scoreboard objectives add magic.hurtCD dummy
 scoreboard objectives add magic.castTime dummy
+scoreboard objectives add magic.iframe dummy
 
 scoreboard objectives add magic.wCD dummy
 scoreboard objectives add magic.sCD dummy
