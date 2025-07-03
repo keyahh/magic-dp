@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=bloodPulse] at @s run function magic:spells/28/main

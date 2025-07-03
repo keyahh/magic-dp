@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 data remove storage aj:temp args
 execute store result storage aj:temp args.frame int 1 run scoreboard players get @s aj.cast2.frame
 function animated_java:lich/animations/cast2/zzz/apply_frame with storage aj:temp args
-execute if score @s aj.cast2.frame matches 53.. run return run function animated_java:lich/animations/cast2/pause
+execute if score @s aj.cast2.frame matches 50.. run return run function animated_java:lich/animations/cast2/pause
 scoreboard players add @s aj.cast2.frame 1

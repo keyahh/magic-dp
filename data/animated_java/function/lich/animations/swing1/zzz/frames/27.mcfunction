@@ -9,3 +9,4 @@ $data merge entity $(bone_left3) {transformation: [0.059f,-0.9884f,0.1402f,1.631
 $data merge entity $(bone_scythe) {transformation: [1.321f,-1.0466f,-0.2792f,0.2266f,-0.6647f,-0.4355f,-1.5122f,1.1475f,0.8553f,1.278f,-0.744f,0.6121f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right2) {transformation: [-0.1497f,-0.6149f,0.7743f,0.0272f,-0.8908f,0.4237f,0.1642f,1.3005f,-0.429f,-0.6652f,-0.6112f,0.4006f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right1) {transformation: [-0.8343f,-0.5306f,-0.1497f,0.8516f,-0.119f,0.4385f,-0.8908f,0.8717f,0.5383f,-0.7254f,-0.429f,1.0031f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:lich/animations/swing1/zzz/frames/27_root_commands

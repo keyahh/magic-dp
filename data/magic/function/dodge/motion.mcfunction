@@ -5,5 +5,7 @@ execute if block ~ ~-0.5 ~ #magic:passable run scoreboard players set $strength 
 
 function player_motion:api/launch_looking
 
-scoreboard players set @s magic.iframe 4
+scoreboard players set @s magic.iframe 5
+scoreboard players set @s magic.dodgeCD 10
 advancement revoke @s only magic:iframe_tick
+advancement revoke @s only magic:dodge_cd

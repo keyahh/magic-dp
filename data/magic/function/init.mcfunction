@@ -11,6 +11,7 @@ scoreboard objectives add magic.atkCD dummy
 scoreboard objectives add magic.hurtCD dummy
 scoreboard objectives add magic.castTime dummy
 scoreboard objectives add magic.iframe dummy
+scoreboard objectives add magic.dodgeCD dummy
 
 scoreboard objectives add magic.wCD dummy
 scoreboard objectives add magic.sCD dummy
@@ -61,5 +62,6 @@ schedule function magic:spells/21/loop 10t append
 schedule function magic:spells/24/loop 10t append
 schedule function magic:spells/25/loop 10t append
 schedule function magic:spells/26/loop 10t append
+schedule function magic:spells/28/loop 10t append
 
 forceload add 0 0

@@ -1,4 +1,4 @@
-scoreboard players add @s magic.temp 2
+scoreboard players add @s magic.temp 1
 execute if score @s magic.temp matches 36.. run return run scoreboard players set @s magic.temp 0
 
 execute if score @s magic.temp matches 0 rotated ~90 -360 run return run particle minecraft:cloud ~ ~ ~ ^ ^ ^1000000 0.0000002 0 force

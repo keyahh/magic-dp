@@ -1,5 +1,4 @@
 particle dust{color:[0.941,0.945,1.000],scale:0.6} ~ ~ ~ 0 0 0 1 3 force
-function magic:spells/26/particles
 
 #repositioning
 scoreboard players remove #magicRange slowcast.itt 1

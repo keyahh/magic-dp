@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Blood Pulse Spell"},custom_data={spellID:28,sequence:["a","s","d","w","d","s"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"A-S-D-W-D-S"},{"color":"dark_gray","italic":true,"text":"Launch a trail of bloody explosions."}]] 1
