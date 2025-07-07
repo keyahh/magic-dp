@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=bloodSlash] at @s run function magic:spells/31/main

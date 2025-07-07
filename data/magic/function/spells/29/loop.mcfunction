@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=soulOrbAnchor] at @s run function magic:spells/29/control

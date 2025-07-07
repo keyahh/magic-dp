@@ -2,3 +2,4 @@
 $data merge entity $(bone_scythe) {transformation: [-1.6293f,0.5137f,0f,-0.9345f,0.5137f,1.6293f,0f,1.5901f,0f,0f,-1.7083f,-0.0156f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right2) {transformation: [0f,0.9659f,-0.2588f,-0.6176f,0f,-0.2588f,-0.9659f,1.5051f,-1f,0f,0f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right1) {transformation: [0.2164f,0.9763f,0f,-1.7225f,0.9763f,-0.2164f,0f,1.43f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+data modify entity @s data merge value {"cameras":{},"locators":{"hitbox":{"posx":-0.6362498434828412,"posy":2.6919913598288803,"posz":-0.015625000000000094,"roty":2.842170943040401e-14,"rotx":-6.934950683937576e-15},"hitbox2":{"posx":-1.3515375565440113,"posy":2.917520709457085,"posz":-0.015625000000000423,"roty":2.842170943040401e-14,"rotx":-6.934950683937576e-15}}}

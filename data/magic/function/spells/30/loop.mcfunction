@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=skullLine] at @s run function magic:spells/30/main

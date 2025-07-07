@@ -8,10 +8,12 @@ tag @s remove aj.lich.animation.dash.playing
 tag @s remove aj.lich.animation.pray.playing
 tag @s remove aj.lich.animation.swing1.playing
 tag @s remove aj.lich.animation.swing2.playing
+tag @s remove aj.lich.animation.swing_flurry.playing
 tag @s remove aj.lich.animation.ground_cutter.playing
 tag @s remove aj.lich.animation.slam.playing
 tag @s remove aj.lich.animation.cast1.playing
 tag @s remove aj.lich.animation.cast2.playing
+tag @s remove aj.lich.animation.cast3.playing
 tag @s remove aj.lich.animation.shotgun.playing
 tag @s remove aj.lich.animation.delayed_bomb.playing
 tag @s remove aj.lich.animation.dodge_right.playing

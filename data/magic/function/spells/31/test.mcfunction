@@ -1,0 +1,1 @@
+summon item_display ~ ~ ~ {item_display:"head",brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0.1f,-0.3f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:white_dye",count:1,components:{"minecraft:item_model":"magic:blood_slash"}}}

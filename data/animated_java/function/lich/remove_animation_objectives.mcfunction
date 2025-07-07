@@ -7,10 +7,12 @@ scoreboard objectives remove aj.dash.frame
 scoreboard objectives remove aj.pray.frame
 scoreboard objectives remove aj.swing1.frame
 scoreboard objectives remove aj.swing2.frame
+scoreboard objectives remove aj.swing_flurry.frame
 scoreboard objectives remove aj.ground_cutter.frame
 scoreboard objectives remove aj.slam.frame
 scoreboard objectives remove aj.cast1.frame
 scoreboard objectives remove aj.cast2.frame
+scoreboard objectives remove aj.cast3.frame
 scoreboard objectives remove aj.shotgun.frame
 scoreboard objectives remove aj.delayed_bomb.frame
 scoreboard objectives remove aj.dodge_right.frame

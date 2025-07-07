@@ -7,10 +7,12 @@ scoreboard objectives add aj.dash.frame dummy
 scoreboard objectives add aj.pray.frame dummy
 scoreboard objectives add aj.swing1.frame dummy
 scoreboard objectives add aj.swing2.frame dummy
+scoreboard objectives add aj.swing_flurry.frame dummy
 scoreboard objectives add aj.ground_cutter.frame dummy
 scoreboard objectives add aj.slam.frame dummy
 scoreboard objectives add aj.cast1.frame dummy
 scoreboard objectives add aj.cast2.frame dummy
+scoreboard objectives add aj.cast3.frame dummy
 scoreboard objectives add aj.shotgun.frame dummy
 scoreboard objectives add aj.delayed_bomb.frame dummy
 scoreboard objectives add aj.dodge_right.frame dummy

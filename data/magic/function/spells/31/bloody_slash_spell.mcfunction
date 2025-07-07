@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Bloody Slash Spell"},custom_data={spellID:31,sequence:["w","s","d","a","w","s"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-S-D-A-W-S"},{"color":"dark_gray","italic":true,"text":"Sacrifice your blood to create a powerful cutting arc."}]] 1

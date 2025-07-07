@@ -1,0 +1,1 @@
+damage @s 30 player_attack by @n[type=#magic:magic_user,tag=thisPlayer]

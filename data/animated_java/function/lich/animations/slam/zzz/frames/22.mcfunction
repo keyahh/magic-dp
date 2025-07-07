@@ -11,4 +11,5 @@ $data merge entity $(bone_right2) {transformation: [-0.9811f,0.0008f,0.1936f,-0.
 $data merge entity $(bone_right1) {transformation: [-0.8988f,0.3643f,0.2438f,-0.5326f,-0.4311f,-0.8357f,-0.3402f,2.763f,0.0798f,-0.4108f,0.9082f,0.5399f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_left_leg) {transformation: [-1f,0f,0f,0.125f,0f,0.9763f,0.2164f,0.75f,0f,0.2164f,-0.9763f,-0.0062f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right_leg) {transformation: [-1f,0f,0f,-0.125f,0f,0.9763f,0.2164f,0.75f,0f,0.2164f,-0.9763f,-0.0063f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+data modify entity @s data merge value {"cameras":{},"locators":{"hitbox":{"posx":-0.6316878303195622,"posy":2.2245237365701787,"posz":-0.944423076104619,"roty":260.3059302751873,"rotx":0.2299438676115487},"hitbox2":{"posx":-0.6163270457033239,"posy":2.9708889755049492,"posz":-0.8722914158865372,"roty":260.3059302751873,"rotx":0.2299438676115487}}}
 execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:lich/animations/slam/zzz/frames/22_root_commands

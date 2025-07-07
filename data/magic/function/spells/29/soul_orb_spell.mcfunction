@@ -1,1 +1,0 @@
-give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Soul Orb Spell"},custom_data={spellID:29,sequence:["s","w","d","w","a","d","w"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-W-D-W-A-D-W"},{"color":"dark_gray","italic":true,"text":"Create a large homing ball of swirling souls."}]] 1

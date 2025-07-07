@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=wanderingSkull] at @s run function magic:spells/32/main

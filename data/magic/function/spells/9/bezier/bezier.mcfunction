@@ -10,7 +10,7 @@
 #bezier:points p[2][1] = end point y
 #bezier:points p[2][2] = end point z
 
-#bezier:points current[0],1,2
+#bezier:points current[]
 
 # #bezierTime bezier.temp 0..100
 
