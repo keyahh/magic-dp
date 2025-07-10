@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=fireball] at @s run function magic:spells/27/main

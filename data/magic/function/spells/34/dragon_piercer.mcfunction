@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Dragon Piercer Spell"},custom_data={spellID:34,sequence:["s","d","a","w","d","w","a","d"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-D-A-W-D-W-A-D"},{"color":"dark_gray","italic":true,"text":"A great piercing drill that deals extra damage to dragons."}]] 1

@@ -2,9 +2,9 @@
 scoreboard objectives add aj.still.frame dummy
 scoreboard objectives add aj.die.frame dummy
 scoreboard objectives add aj.fake_die.frame dummy
+scoreboard objectives add aj.pray.frame dummy
 scoreboard objectives add aj.walk.frame dummy
 scoreboard objectives add aj.dash.frame dummy
-scoreboard objectives add aj.pray.frame dummy
 scoreboard objectives add aj.swing1.frame dummy
 scoreboard objectives add aj.swing2.frame dummy
 scoreboard objectives add aj.swing_flurry.frame dummy

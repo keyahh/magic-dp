@@ -1,0 +1,1 @@
+execute as @e[type=#magic:targets,scores={magic.petrify=1..}] run function magic:spells/33/petrify_clock

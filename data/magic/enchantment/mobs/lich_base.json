@@ -22,6 +22,21 @@
           "type": "minecraft:run_function",
           "function": "magic:mobs/lich/base_main"
         }
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "magic.health": {
+              "min": 300
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "magic:mobs/lich/update_health"
+        }
       }
     ],
     "minecraft:projectile_spawned": [

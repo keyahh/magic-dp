@@ -2,3 +2,4 @@
 function magic:mobs/lich/atk/stop_movement
 function magic:mobs/lich/atk/small_launch
 function magic:mobs/lich/atk/lock_rotation
+function magic:mobs/lich/atk/swing_sound

@@ -11,7 +11,9 @@ scoreboard objectives add magic.atkCD dummy
 scoreboard objectives add magic.hurtCD dummy
 scoreboard objectives add magic.castTime dummy
 scoreboard objectives add magic.iframe dummy
+scoreboard objectives add magic.dmgFrame dummy
 scoreboard objectives add magic.dodgeCD dummy
+scoreboard objectives add magic.health dummy
 
 scoreboard objectives add magic.wCD dummy
 scoreboard objectives add magic.sCD dummy
@@ -28,6 +30,7 @@ scoreboard objectives add magic.batTime dummy
 scoreboard objectives add magic.cloud dummy
 scoreboard objectives add magic.bloodSlashSide dummy
 
+scoreboard objectives add magic.petrify dummy
 scoreboard objectives add magic.bleed dummy
 scoreboard objectives add magic.burn dummy
 
@@ -39,7 +42,10 @@ scoreboard players set #bezier100 bezier.temp 100
 scoreboard objectives add slowcast.itt dummy
 scoreboard objectives add slowcast.dist dummy
 scoreboard objectives add slowcast.maxDist dummy
+scoreboard objectives add slowcast.usin dummy
+scoreboard objectives add slowcast.time dummy
 scoreboard objectives add slowcast dummy
+scoreboard players set #g/2 slowcast 40
 
 scoreboard objectives add math dummy
 scoreboard objectives add radius dummy
@@ -49,6 +55,9 @@ scoreboard objectives add phi dummy
 scoreboard objectives add maxPhi dummy
 scoreboard objectives add minPhi dummy
 scoreboard objectives add const dummy
+
+scoreboard players set #5 const 5
+scoreboard players set #10 const 10
 scoreboard players set #400 const 400
 scoreboard players set #1800 const 1800
 scoreboard players set #3600 const 3600
@@ -75,10 +84,14 @@ schedule function magic:spells/21/loop 10t append
 schedule function magic:spells/24/loop 10t append
 schedule function magic:spells/25/loop 10t append
 schedule function magic:spells/26/loop 10t append
+schedule function magic:spells/27/loop 10t append
 schedule function magic:spells/28/loop 10t append
 schedule function magic:spells/29/loop 10t append
 schedule function magic:spells/30/loop 10t append
 schedule function magic:spells/31/loop 10t append
 schedule function magic:spells/32/loop 10t append
+schedule function magic:spells/33/loop 10t append
+schedule function magic:spells/33/petrify_loop 10t append
+
 
 forceload add 0 0

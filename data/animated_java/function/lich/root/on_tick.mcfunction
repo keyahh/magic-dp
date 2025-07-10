@@ -4,9 +4,9 @@ execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:g
 execute if entity @s[tag=aj.lich.animation.still.playing] run function animated_java:lich/animations/still/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.die.playing] run function animated_java:lich/animations/die/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.fake_die.playing] run function animated_java:lich/animations/fake_die/zzz/on_tick
+execute if entity @s[tag=aj.lich.animation.pray.playing] run function animated_java:lich/animations/pray/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.walk.playing] run function animated_java:lich/animations/walk/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.dash.playing] run function animated_java:lich/animations/dash/zzz/on_tick
-execute if entity @s[tag=aj.lich.animation.pray.playing] run function animated_java:lich/animations/pray/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.swing1.playing] run function animated_java:lich/animations/swing1/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.swing2.playing] run function animated_java:lich/animations/swing2/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.swing_flurry.playing] run function animated_java:lich/animations/swing_flurry/zzz/on_tick
@@ -21,3 +21,4 @@ execute if entity @s[tag=aj.lich.animation.dodge_right.playing] run function ani
 execute if entity @s[tag=aj.lich.animation.dodge_left.playing] run function animated_java:lich/animations/dodge_left/zzz/on_tick
 execute on passengers if entity @s[tag=aj.lich.data] run function animated_java:lich/root/zzz/on_tick/locators_and_cameras
 execute at @s on passengers run rotate @s ~ ~
+function magic:mobs/lich/detect_death

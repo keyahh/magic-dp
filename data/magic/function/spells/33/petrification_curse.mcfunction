@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Petrification Curse"},custom_data={spellID:33,sequence:["d","a","w","d","w","s","d"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"D-A-W-D-W-S-D"},{"color":"dark_gray","italic":true,"text":"Temporarily petrifies victims."}]] 1

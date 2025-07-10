@@ -1,3 +1,3 @@
 tag @s add thisLich
-execute positioned 0.0 0.0 0.0 positioned ^ ^ ^0.5 summon marker run function magic:mobs/lich/atk/motion_marker
+execute positioned 0.0 0.0 0.0 positioned ^ ^ ^0.8 summon marker run function magic:mobs/lich/atk/motion_marker
 tag @s remove thisLich

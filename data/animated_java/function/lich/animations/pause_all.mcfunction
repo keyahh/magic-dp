@@ -3,9 +3,9 @@ execute unless entity @s[type=minecraft:item_display,tag=aj.lich.root] run retur
 tag @s remove aj.lich.animation.still.playing
 tag @s remove aj.lich.animation.die.playing
 tag @s remove aj.lich.animation.fake_die.playing
+tag @s remove aj.lich.animation.pray.playing
 tag @s remove aj.lich.animation.walk.playing
 tag @s remove aj.lich.animation.dash.playing
-tag @s remove aj.lich.animation.pray.playing
 tag @s remove aj.lich.animation.swing1.playing
 tag @s remove aj.lich.animation.swing2.playing
 tag @s remove aj.lich.animation.swing_flurry.playing

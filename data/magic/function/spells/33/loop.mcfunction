@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=petrify] at @s run function magic:spells/33/main
