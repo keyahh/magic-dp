@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=strike] at @s run function magic:spells/37/main

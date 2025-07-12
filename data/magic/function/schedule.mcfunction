@@ -17,6 +17,7 @@ schedule function magic:spells/16/loop 10t append
 schedule function magic:spells/17/loop 10t append
 schedule function magic:spells/18/loop 10t append
 schedule function magic:spells/21/loop 10t append
+schedule function magic:spells/22/loop 10t append
 schedule function magic:spells/24/loop 10t append
 schedule function magic:spells/25/loop 10t append
 schedule function magic:spells/26/loop 10t append
@@ -30,3 +31,4 @@ schedule function magic:spells/33/loop 10t append
 schedule function magic:spells/33/petrify_loop 10t append
 schedule function magic:spells/34/loop 10t append
 schedule function magic:spells/35/loop 10t append
+schedule function magic:spells/37/loop 10t append

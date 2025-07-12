@@ -1,1 +1,2 @@
-function animated_java:cutter/remove/this
+#function animated_java:cutter/remove/this
+kill @s

@@ -7,5 +7,8 @@ attribute @s minecraft:block_interaction_range base set 0
 attribute @s minecraft:attack_speed base set 0
 attribute @s minecraft:follow_range base set -10
 
-scoreboard players set @s magic.petrify 1200
+scoreboard players set @s[tag=!boss] magic.petrify 1200
+scoreboard players set @s[tag=boss] magic.petrify 15
+scoreboard players add @s[tag=boss] magic.atkCD 15
+
 schedule function magic:spells/33/petrify_loop 1t append

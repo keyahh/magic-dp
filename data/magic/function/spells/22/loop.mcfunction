@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=cutter] at @s run function magic:spells/22/main
