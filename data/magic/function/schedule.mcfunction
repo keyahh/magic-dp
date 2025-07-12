@@ -1,0 +1,32 @@
+scoreboard players reset @s magic.temp
+
+schedule function magic:id_loop 10t append
+
+schedule function magic:spells/2/loop 10t append
+schedule function magic:spells/3/loop 10t append
+schedule function magic:spells/5/loop 10t append
+schedule function magic:spells/6/loop 10t append
+schedule function magic:spells/8/loop 10t append
+schedule function magic:spells/11/loop 10t append
+schedule function magic:spells/12/loop 10t append
+schedule function magic:spells/13/loop 10t append
+schedule function magic:spells/13/flicker/loop 10t append
+schedule function magic:spells/14/loop 10t append
+schedule function magic:spells/15/loop 10t append
+schedule function magic:spells/16/loop 10t append
+schedule function magic:spells/17/loop 10t append
+schedule function magic:spells/18/loop 10t append
+schedule function magic:spells/21/loop 10t append
+schedule function magic:spells/24/loop 10t append
+schedule function magic:spells/25/loop 10t append
+schedule function magic:spells/26/loop 10t append
+schedule function magic:spells/27/loop 10t append
+schedule function magic:spells/28/loop 10t append
+schedule function magic:spells/29/loop 10t append
+schedule function magic:spells/30/loop 10t append
+schedule function magic:spells/31/loop 10t append
+schedule function magic:spells/32/loop 10t append
+schedule function magic:spells/33/loop 10t append
+schedule function magic:spells/33/petrify_loop 10t append
+schedule function magic:spells/34/loop 10t append
+schedule function magic:spells/35/loop 10t append

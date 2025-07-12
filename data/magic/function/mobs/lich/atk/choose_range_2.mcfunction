@@ -1,3 +1,5 @@
+scoreboard players set @s magic.atkCD 40
+
 execute store result score #rng magic.temp run random value 1..20
 
 execute if score #rng magic.temp matches 1..7 as @n[type=item_display,tag=aj.lich.root,predicate=magic:match_id] run return run function animated_java:lich/animations/cast1/play

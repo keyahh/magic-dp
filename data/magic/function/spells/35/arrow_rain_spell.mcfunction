@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Arrow Rain Spell"},custom_data={spellID:35,sequence:["w","s","d","a","d","a"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-S-D-A-D-A"},{"color":"dark_gray","italic":true,"text":"Conjures a cloud to rain down arrows."}]] 1

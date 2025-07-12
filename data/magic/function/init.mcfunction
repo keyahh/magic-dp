@@ -62,36 +62,8 @@ scoreboard players set #400 const 400
 scoreboard players set #1800 const 1800
 scoreboard players set #3600 const 3600
 
+forceload add 0 0
+summon marker 0 0 0 {UUID:[I;2961,3204,106,81],Tags:["magic","magicClock"]}
 setblock 0 -64 0 yellow_shulker_box
 
-schedule function magic:id_loop 10t append
-
-schedule function magic:spells/2/loop 10t append
-schedule function magic:spells/3/loop 10t append
-schedule function magic:spells/5/loop 10t append
-schedule function magic:spells/6/loop 10t append
-schedule function magic:spells/8/loop 10t append
-schedule function magic:spells/11/loop 10t append
-schedule function magic:spells/12/loop 10t append
-schedule function magic:spells/13/loop 10t append
-schedule function magic:spells/13/flicker/loop 10t append
-schedule function magic:spells/14/loop 10t append
-schedule function magic:spells/15/loop 10t append
-schedule function magic:spells/16/loop 10t append
-schedule function magic:spells/17/loop 10t append
-schedule function magic:spells/18/loop 10t append
-schedule function magic:spells/21/loop 10t append
-schedule function magic:spells/24/loop 10t append
-schedule function magic:spells/25/loop 10t append
-schedule function magic:spells/26/loop 10t append
-schedule function magic:spells/27/loop 10t append
-schedule function magic:spells/28/loop 10t append
-schedule function magic:spells/29/loop 10t append
-schedule function magic:spells/30/loop 10t append
-schedule function magic:spells/31/loop 10t append
-schedule function magic:spells/32/loop 10t append
-schedule function magic:spells/33/loop 10t append
-schedule function magic:spells/33/petrify_loop 10t append
-
-
-forceload add 0 0
+function magic:schedule

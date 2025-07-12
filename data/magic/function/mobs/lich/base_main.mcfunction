@@ -1,5 +1,5 @@
 effect give @s invisibility infinite 0 true
-effect give @s resistance infinite 0 true
+effect give @s resistance infinite 1 true
 
 scoreboard players operation #magicSearch magic.id = @s magic.id
 

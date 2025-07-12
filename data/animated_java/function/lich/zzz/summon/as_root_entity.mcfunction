@@ -8,6 +8,6 @@ tp @s ~ ~ ~ ~ ~
 execute at @s on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 1
 execute on passengers run data modify entity @s teleport_duration set value 1
-execute as @s[tag=!die] at @s run function magic:mobs/lich/setup_lich
+execute as @s at @s run function magic:mobs/lich/setup_lich
 tag @s remove aj.new
 execute on passengers run tag @s remove aj.new

@@ -5,4 +5,6 @@ execute anchored eyes positioned ^ ^-0.3 ^ anchored feet run tp @e[type=marker,t
 rotate @n[type=marker,tag=newMagic,tag=windParticles,distance=..2] ~90 ~
 tag @e[type=marker,tag=newMagic,distance=..2] remove newMagic
 
+playsound minecraft:entity.arrow.shoot master @a ~ ~ ~ 2 1.5
+
 schedule function magic:spells/26/loop 1t append

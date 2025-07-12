@@ -7,6 +7,7 @@ execute on passengers if entity @s[tag=aj.lich.bone.head] run function animated_
 execute on passengers if entity @s[tag=aj.lich.bone.body] run function animated_java:lich/variants/default/zzz/apply_to_bone_body
 execute on passengers if entity @s[tag=aj.lich.bone.left4] run function animated_java:lich/variants/default/zzz/apply_to_bone_left4
 execute on passengers if entity @s[tag=aj.lich.bone.left3] run function animated_java:lich/variants/default/zzz/apply_to_bone_left3
+execute on passengers if entity @s[tag=aj.lich.bone.aura] run function animated_java:lich/variants/default/zzz/apply_to_bone_aura
 execute on passengers if entity @s[tag=aj.lich.bone.scythe] run function animated_java:lich/variants/default/zzz/apply_to_bone_scythe
 execute on passengers if entity @s[tag=aj.lich.bone.right2] run function animated_java:lich/variants/default/zzz/apply_to_bone_right2
 execute on passengers if entity @s[tag=aj.lich.bone.right1] run function animated_java:lich/variants/default/zzz/apply_to_bone_right1

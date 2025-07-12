@@ -3,6 +3,8 @@
 	"values": [
 		"minecraft:marker",
 		"minecraft:item_display",
-		"minecraft:block_display"
+		"minecraft:block_display",
+		"minecraft:bat",
+		"minecraft:wolf"
 	]
 }

@@ -15,6 +15,8 @@ execute on vehicle on passengers if entity @s[tag=aj.lich.node.left4] run functi
 data modify entity @s data.uuids.bone_left4 set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.lich.node.left3] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.bone_left3 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.lich.node.aura] run function animated_java:global/internal/gu/convert_uuid_array_to_string
+data modify entity @s data.uuids.bone_aura set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.lich.node.scythe] run function animated_java:global/internal/gu/convert_uuid_array_to_string
 data modify entity @s data.uuids.bone_scythe set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.lich.node.right2] run function animated_java:global/internal/gu/convert_uuid_array_to_string

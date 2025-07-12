@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=arrowRain] at @s run function magic:spells/35/main

@@ -7,6 +7,7 @@ scoreboard objectives add aj.walk.frame dummy
 scoreboard objectives add aj.dash.frame dummy
 scoreboard objectives add aj.swing1.frame dummy
 scoreboard objectives add aj.swing2.frame dummy
+scoreboard objectives add aj.swing3.frame dummy
 scoreboard objectives add aj.swing_flurry.frame dummy
 scoreboard objectives add aj.ground_cutter.frame dummy
 scoreboard objectives add aj.slam.frame dummy

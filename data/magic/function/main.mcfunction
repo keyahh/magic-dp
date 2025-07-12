@@ -1,3 +1,5 @@
+execute as 2961-3204-106-81 run function magic:clock_main
+
 execute as @a[tag=!hasWandUI] if items entity @s weapon.offhand minecraft:poisonous_potato[minecraft:custom_data~{is_wand:1}] at @s run function magic:wand/open
 execute as @a[tag=hasWandUI] at @s run function magic:wand/wand_main
 execute as @e[type=chest_minecart,tag=magicUI] at @s run function magic:wand/minecart

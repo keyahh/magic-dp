@@ -9,6 +9,7 @@ execute if entity @s[tag=aj.lich.animation.walk.playing] run function animated_j
 execute if entity @s[tag=aj.lich.animation.dash.playing] run function animated_java:lich/animations/dash/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.swing1.playing] run function animated_java:lich/animations/swing1/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.swing2.playing] run function animated_java:lich/animations/swing2/zzz/on_tick
+execute if entity @s[tag=aj.lich.animation.swing3.playing] run function animated_java:lich/animations/swing3/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.swing_flurry.playing] run function animated_java:lich/animations/swing_flurry/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.ground_cutter.playing] run function animated_java:lich/animations/ground_cutter/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.slam.playing] run function animated_java:lich/animations/slam/zzz/on_tick
@@ -21,4 +22,4 @@ execute if entity @s[tag=aj.lich.animation.dodge_right.playing] run function ani
 execute if entity @s[tag=aj.lich.animation.dodge_left.playing] run function animated_java:lich/animations/dodge_left/zzz/on_tick
 execute on passengers if entity @s[tag=aj.lich.data] run function animated_java:lich/root/zzz/on_tick/locators_and_cameras
 execute at @s on passengers run rotate @s ~ ~
-function magic:mobs/lich/detect_death
+execute as @s at @s run function magic:mobs/lich/detect_death

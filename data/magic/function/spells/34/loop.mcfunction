@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=darkSpiritAnchor] at @s run function magic:spells/34/main

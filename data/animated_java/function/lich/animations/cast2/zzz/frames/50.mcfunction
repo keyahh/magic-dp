@@ -6,7 +6,8 @@ $data merge entity $(bone_head) {transformation: [-1f,0f,0f,0f,0f,0.9848f,0.1736
 $data merge entity $(bone_body) {transformation: [-1.125f,0f,0f,0f,0f,1.125f,0f,1.0625f,0f,0f,-1.125f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_left4) {transformation: [-0.9763f,-0.2164f,0f,0.3598f,-0.2164f,0.9763f,0f,1.1614f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_left3) {transformation: [-0.9763f,-0.2164f,0f,0.2915f,-0.2164f,0.9763f,0f,0.026f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
-$data merge entity $(bone_scythe) {transformation: [-2.375f,0f,0f,-0.8514f,0f,2.375f,0f,1.1928f,0f,0f,-2.375f,-0.0156f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(bone_aura) {transformation: [-2.375f,0f,0f,-2.1639f,0f,2.375f,0f,2.1928f,0f,0f,-2.375f,-0.0156f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+$data merge entity $(bone_scythe) {transformation: [-1.7083f,0f,0f,-0.8514f,0f,1.7083f,0f,1.1928f,0f,0f,-1.7083f,-0.0156f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right2) {transformation: [0f,0.999f,0.0436f,-0.5236f,0f,0.0436f,-0.999f,1.2071f,-1f,0f,0f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_right1) {transformation: [-0.7373f,0.6756f,0f,-1.011f,0.6756f,0.7373f,0f,0.2126f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 data modify entity @s data merge value {"cameras":{},"locators":{"scythe_blade":{"posx":-1.5233096375864408,"posy":2.333413220767585,"posz":-0.015625000000000274,"roty":2.842170943040401e-14,"rotx":5.588124107419383e-16},"scythe_pole":{"posx":-0.8358096375864408,"posy":1.3959132207675853,"posz":-0.015625000000000076,"roty":2.842170943040401e-14,"rotx":5.588124107419383e-16}}}

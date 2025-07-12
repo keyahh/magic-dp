@@ -7,6 +7,7 @@ scoreboard objectives remove aj.walk.frame
 scoreboard objectives remove aj.dash.frame
 scoreboard objectives remove aj.swing1.frame
 scoreboard objectives remove aj.swing2.frame
+scoreboard objectives remove aj.swing3.frame
 scoreboard objectives remove aj.swing_flurry.frame
 scoreboard objectives remove aj.ground_cutter.frame
 scoreboard objectives remove aj.slam.frame

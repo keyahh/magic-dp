@@ -8,6 +8,7 @@ tag @s remove aj.lich.animation.walk.playing
 tag @s remove aj.lich.animation.dash.playing
 tag @s remove aj.lich.animation.swing1.playing
 tag @s remove aj.lich.animation.swing2.playing
+tag @s remove aj.lich.animation.swing3.playing
 tag @s remove aj.lich.animation.swing_flurry.playing
 tag @s remove aj.lich.animation.ground_cutter.playing
 tag @s remove aj.lich.animation.slam.playing
