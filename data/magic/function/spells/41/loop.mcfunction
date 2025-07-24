@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=twinklingStar] at @s run function magic:spells/41/main

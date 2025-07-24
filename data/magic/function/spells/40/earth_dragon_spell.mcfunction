@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Earth Serpent Spell"},custom_data={spellID:39,sequence:["s,"s","s","a","d","a","w","a","s"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-S-S-A-D-A-W-A-S"},{"color":"dark_gray","italic":true,"text":"Conjures an earthen serpent to attack foes."}]] 1

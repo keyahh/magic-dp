@@ -1,0 +1,1 @@
+execute unless items entity @s weapon.mainhand minecraft:poisonous_potato[minecraft:item_model="magic:mage_blade"] run item modify entity @s weapon.mainhand magic:mage_blade

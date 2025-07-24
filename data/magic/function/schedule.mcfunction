@@ -32,3 +32,5 @@ schedule function magic:spells/33/petrify_loop 10t append
 schedule function magic:spells/34/loop 10t append
 schedule function magic:spells/35/loop 10t append
 schedule function magic:spells/37/loop 10t append
+schedule function magic:spells/38/loop 10t append
+schedule function magic:spells/41/loop 10t append

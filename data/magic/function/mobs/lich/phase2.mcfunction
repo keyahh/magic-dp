@@ -4,6 +4,6 @@ execute if score @s[tag=!inAtk,tag=!inDodge] magic.atkCD matches ..0 if entity @
 execute if entity @s[tag=inAtk] run function magic:mobs/wizard/atk/in_atk
 
 #dodge
-scoreboard players add @s magic.dodgeCD 1
-execute if entity @s[tag=!inAtk,tag=!inDodge,scores={magic.dodgeCD=16..}] if entity @p[distance=..7] run function magic:mobs/lich/dodge/random_dodge
+#scoreboard players add @s magic.dodgeCD 1
+#execute if entity @s[tag=!inAtk,tag=!inDodge,scores={magic.dodgeCD=20..}] if entity @p[distance=..7] run function magic:mobs/lich/dodge/random_dodge
 execute if entity @s[tag=!inAtk,tag=!inDodge] if entity @p[gamemode=!creative,gamemode=!spectator,distance=..20,scores={magic.castTime=1..}] run function magic:mobs/lich/dodge/dodge

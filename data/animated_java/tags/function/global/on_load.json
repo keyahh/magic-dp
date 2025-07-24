@@ -1,9 +1,9 @@
 {
 	"values": [
-		"animated_java:cutter/on_load",
 		"animated_java:laceration/on_load",
 		"animated_java:lich/on_load",
 		"animated_java:lightning/on_load",
+		"animated_java:ruin_star/on_load",
 		"animated_java:shield/on_load",
 		"animated_java:sword_projectile/on_load",
 		"animated_java:wizard/on_load"

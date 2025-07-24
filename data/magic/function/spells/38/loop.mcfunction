@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=ruinStarAnchor] at @s run function magic:spells/38/main

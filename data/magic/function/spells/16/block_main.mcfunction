@@ -1,7 +1,7 @@
 scoreboard players add @s magic.temp 1
 
 scoreboard players operation #magicSearch magic.id = @s magic.id
-execute positioned ~-.5 ~-2 ~-.5 as @e[type=#magic:targets,predicate=!magic:match_id,dx=0,dy=1,dz=0] unless score @s magic.iframe matches 1.. run damage @s 20 player_attack by @n[type=#magic:magic_user,predicate=magic:match_id]
+execute positioned ~-.5 ~ ~-.5 as @e[type=#magic:targets,predicate=!magic:match_id,dx=0,dy=1.25,dz=0] unless score @s magic.iframe matches 1.. run damage @s 20 player_attack by @n[type=#magic:magic_user,predicate=magic:match_id]
 
 execute positioned ~-0.5 ~ ~-0.5 as @e[type=#magic:proj_spell,tag=projSpell,dx=0,dy=1.5,dz=0,distance=..6] run kill @s
 

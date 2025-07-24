@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 data remove storage aj:temp args
 execute store result storage aj:temp args.frame int 1 run scoreboard players get @s aj.summon.frame
 function animated_java:shield/animations/summon/zzz/apply_frame with storage aj:temp args
-execute if score @s aj.summon.frame matches 15.. run return run function animated_java:shield/animations/summon/pause
+execute if score @s aj.summon.frame matches 14.. run return run function animated_java:shield/animations/summon/pause
 scoreboard players add @s aj.summon.frame 1

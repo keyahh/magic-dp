@@ -1,4 +1,4 @@
-scoreboard players set @s magic.atkCD 40
+scoreboard players set @s magic.atkCD 50
 
 execute store result score #rng magic.temp run random value 1..20
 

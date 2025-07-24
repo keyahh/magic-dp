@@ -1,7 +1,9 @@
 tag @s remove phase1
 tag @s remove inAtk
+tag @s remove inDodge
 
 data merge entity @s {NoAI:1b}
+effect give @s resistance 12 4 true
 
 scoreboard players operation #magicSearch magic.id = @s magic.id
 tag @n[type=item_display,tag=aj.lich.root,predicate=magic:match_id,distance=..5] add phase2
