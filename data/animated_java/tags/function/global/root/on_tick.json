@@ -3,6 +3,7 @@
 		"animated_java:laceration/root/on_tick",
 		"animated_java:lich/root/on_tick",
 		"animated_java:lightning/root/on_tick",
+		"animated_java:mage_hunter/root/on_tick",
 		"animated_java:ruin_star/root/on_tick",
 		"animated_java:shield/root/on_tick",
 		"animated_java:sword_projectile/root/on_tick",

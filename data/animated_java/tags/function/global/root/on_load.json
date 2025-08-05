@@ -3,6 +3,7 @@
 		"animated_java:laceration/root/on_load",
 		"animated_java:lich/root/on_load",
 		"animated_java:lightning/root/on_load",
+		"animated_java:mage_hunter/root/on_load",
 		"animated_java:ruin_star/root/on_load",
 		"animated_java:shield/root/on_load",
 		"animated_java:sword_projectile/root/on_load",

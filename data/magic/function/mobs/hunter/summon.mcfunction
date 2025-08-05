@@ -1,0 +1,1 @@
+function animated_java:mage_hunter/summon {args:{variants:"default",animation:"still"}}

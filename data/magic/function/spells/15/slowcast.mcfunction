@@ -8,9 +8,7 @@ execute unless block ~ ~ ~ #magic:passable run function magic:spells/15/fizzle
 #entity collision
 tag @s add thisSpell
 scoreboard players operation #magicSearch magic.id = @s magic.id
-tag @n[type=#magic:magic_user,predicate=magic:match_id] add thisPlayer
-execute positioned ~-0.75 ~-1.5 ~-0.75 as @e[type=#magic:targets,predicate=!magic:match_id,distance=..5,dx=.5,dy=.5,dz=.5] unless score @s magic.iframe matches 1.. as @n[type=marker,tag=thisSpell,distance=..5] at @s run function magic:spells/15/hit_mob
-tag @n[type=#magic:magic_user,predicate=magic:match_id,tag=thisPlayer] remove thisPlayer
+execute positioned ~-0.75 ~-0.75 ~-0.75 as @e[type=#magic:targets,predicate=!magic:match_id,dx=.5,dy=.5,dz=.5] unless score @s magic.iframe matches 1.. as @n[type=marker,tag=thisSpell] positioned ~0.75 ~0.75 ~0.75 run function magic:spells/15/hit_mob
 tag @s remove thisSpell
 
 #recurse

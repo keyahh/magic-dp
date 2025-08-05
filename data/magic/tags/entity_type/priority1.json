@@ -40,6 +40,9 @@
     	"minecraft:warden",
     	"minecraft:breeze",
     	"minecraft:bogged",
-    	"minecraft:creaking"
+    	"minecraft:creaking",
+    	"minecraft:hoglin",
+    	"minecraft:zoglin",
+    	"minecraft:end_crystal"
 	]
 }

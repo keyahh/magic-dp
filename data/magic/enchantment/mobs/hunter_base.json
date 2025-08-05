@@ -1,0 +1,39 @@
+{
+  "description": "",
+  "supported_items": [
+    "minecraft:bow",
+    "minecraft:stick"
+  ],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "magic:mobs/hunter/base_main"
+        }
+      }
+    ],
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "magic:mobs/hunter/kill_arrow"
+        }
+      }
+    ]
+  }
+}
