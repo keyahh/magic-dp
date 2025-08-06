@@ -1,2 +1,2 @@
-function magic:mobs/hunter/motion/launch_left
-execute as @n[type=item_display,tag=aj.mage_hunter.root,predicate=magic:match_id] run return run function animated_java:mage_hunter/animations/dodge_right/play
+#function magic:mobs/hunter/motion/launch_right
+execute on passengers if entity @s[tag=aj.mage_hunter.root] run return run function animated_java:mage_hunter/animations/dodge_right/play

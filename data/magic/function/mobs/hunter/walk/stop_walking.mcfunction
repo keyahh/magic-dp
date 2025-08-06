@@ -1,6 +1,6 @@
-#tellraw @a "stop moving"
+tellraw @a "stop moving"
 scoreboard players operation #magicSearch magic.id = @s magic.id
 
-execute as @n[type=item_display,tag=aj.mage_hunter.root,predicate=magic:match_id] run function animated_java:mage_hunter/animations/walk/stop
+execute on passengers if entity @s[tag=aj.mage_hunter.root] run function animated_java:mage_hunter/animations/still/play
 
 tag @s remove moving
