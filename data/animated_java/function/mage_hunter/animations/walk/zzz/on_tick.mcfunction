@@ -6,5 +6,5 @@ execute if score @s aj.walk.frame matches -1 run function animated_java:mage_hun
 data remove storage aj:temp args
 execute store result storage aj:temp args.frame int 1 run scoreboard players get @s aj.walk.frame
 function animated_java:mage_hunter/animations/walk/zzz/apply_frame with storage aj:temp args
-execute if score @s aj.walk.frame matches 23.. run return run scoreboard players set @s aj.walk.frame -1
+execute if score @s aj.walk.frame matches 19.. run return run scoreboard players set @s aj.walk.frame -1
 scoreboard players add @s aj.walk.frame 1
