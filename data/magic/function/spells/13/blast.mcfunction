@@ -13,6 +13,7 @@ playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 6 0.5
 
 tag @n[type=#magic:magic_user,predicate=magic:match_id] add thisPlayer
 execute as @e[type=#magic:targets,distance=..40] unless score @s magic.iframe matches 1.. run damage @s 500 magic:ignore_cooldown by @n[type=#magic:magic_user,tag=thisPlayer]
+scoreboard players add @e[type=#magic:targets,distance=..40] magic.stagger 120
 tag @n[type=#magic:magic_user,predicate=magic:match_id] remove thisPlayer
 
 execute if score #magicDestruction magic.setting matches 1 run summon creeper ~ ~ ~ {Silent:1b,ExplosionRadius:40b,Fuse:-1,ignited:1b,powered:1b}

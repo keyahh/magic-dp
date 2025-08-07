@@ -14,7 +14,8 @@ scoreboard objectives add magic.iframe dummy
 scoreboard objectives add magic.dmgFrame dummy
 scoreboard objectives add magic.dodgeCD dummy
 scoreboard objectives add magic.health dummy
-scoreboard objectives add magic.poise dummy
+scoreboard objectives add magic.stagger dummy
+scoreboard objectives add magic.posture dummy
 
 scoreboard objectives add magic.wCD dummy
 scoreboard objectives add magic.sCD dummy

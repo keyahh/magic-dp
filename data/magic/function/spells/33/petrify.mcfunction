@@ -10,5 +10,6 @@ attribute @s minecraft:follow_range base set -10
 scoreboard players set @s[tag=!boss] magic.petrify 1200
 scoreboard players set @s[tag=boss] magic.petrify 15
 scoreboard players add @s[tag=boss] magic.atkCD 15
+scoreboard players add @s magic.stagger 20
 
 schedule function magic:spells/33/petrify_loop 1t append

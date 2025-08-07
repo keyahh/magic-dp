@@ -1,0 +1,1 @@
+damage @s 20 player_attack by @n[type=#magic:magic_user,predicate=magic:match_id]

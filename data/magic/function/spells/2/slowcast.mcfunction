@@ -10,7 +10,7 @@ execute unless block ~ ~ ~ #magic:passable run function magic:spells/2/detonate
 #entity collision
 tag @s add thisSpell
 scoreboard players operation #magicSearch magic.id = @s magic.id
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[distance=..5,type=#magic:targets,predicate=!magic:match_id,dx=0,dy=0,dz=0] unless score @s magic.iframe matches 1.. as @n[distance=..5,type=marker,tag=thisSpell] at @s run function magic:spells/2/detonate
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[distance=..5,type=#magic:targets,predicate=!magic:match_id,dx=0,dy=0,dz=0] unless score @s magic.iframe matches 1.. as @n[distance=..5,type=marker,tag=thisSpell] positioned ~0.5 ~0.5 ~0.5 run function magic:spells/2/detonate
 tag @s remove thisSpell
 
 #recurse

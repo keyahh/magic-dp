@@ -17,3 +17,4 @@ $data merge entity $(bone_left_leg) {transformation: [-0.999f,-0.0436f,0f,0.125f
 $data merge entity $(bone_waist) {transformation: [-1f,0f,0f,0f,0f,1f,0f,-0.875f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_pony_tail) {transformation: [-1f,0f,0f,0f,0f,0.9962f,0.0872f,-0.4484f,0f,0.0872f,-0.9962f,-0.2308f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_head) {transformation: [-1f,0f,0f,0f,0f,0.9962f,0.0872f,-0.5f,0f,0.0872f,-0.9962f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:mage_hunter/animations/stagger/zzz/frames/40_root_commands
