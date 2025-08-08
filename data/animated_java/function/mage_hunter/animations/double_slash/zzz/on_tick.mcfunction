@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 data remove storage aj:temp args
 execute store result storage aj:temp args.frame int 1 run scoreboard players get @s aj.double_slash.frame
 function animated_java:mage_hunter/animations/double_slash/zzz/apply_frame with storage aj:temp args
-execute if score @s aj.double_slash.frame matches 42 run return run function animated_java:mage_hunter/animations/double_slash/stop
+execute if score @s aj.double_slash.frame matches 49 run return run function animated_java:mage_hunter/animations/double_slash/stop
 scoreboard players add @s aj.double_slash.frame 1

@@ -2,4 +2,4 @@
 function magic:mobs/hunter/motion/lock_rotation
 execute if entity @p[distance=..7] run scoreboard players set #magicMotion magic.temp 2
 execute unless entity @p[distance=..7] run scoreboard players set #magicMotion magic.temp 3
-function magic:mobs/hunter/motion/launch_diagonal
+function magic:mobs/hunter/motion/launch

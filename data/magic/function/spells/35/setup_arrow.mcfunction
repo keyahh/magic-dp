@@ -1,7 +1,7 @@
 scoreboard players operation @s magic.id = #magicSearch magic.id
 scoreboard players operation @s magic.spellID = #spellID magic.spellID
 scoreboard players set @s slowcast.dist 3
-scoreboard players set @s slowcast.maxDist 200
+scoreboard players set @s slowcast.maxDist 100
 
 tag @s add magic
 tag @s add arrowRain

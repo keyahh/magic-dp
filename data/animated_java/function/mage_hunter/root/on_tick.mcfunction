@@ -2,8 +2,10 @@
 execute unless entity @s[tag=aj.mage_hunter.root] run return 0
 execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:global/root/on_load
 execute if entity @s[tag=aj.mage_hunter.animation.still.playing] run function animated_java:mage_hunter/animations/still/zzz/on_tick
+execute if entity @s[tag=aj.mage_hunter.animation.die.playing] run function animated_java:mage_hunter/animations/die/zzz/on_tick
 execute if entity @s[tag=aj.mage_hunter.animation.stagger.playing] run function animated_java:mage_hunter/animations/stagger/zzz/on_tick
 execute if entity @s[tag=aj.mage_hunter.animation.walk.playing] run function animated_java:mage_hunter/animations/walk/zzz/on_tick
+execute if entity @s[tag=aj.mage_hunter.animation.transition_phase.playing] run function animated_java:mage_hunter/animations/transition_phase/zzz/on_tick
 execute if entity @s[tag=aj.mage_hunter.animation.slash.playing] run function animated_java:mage_hunter/animations/slash/zzz/on_tick
 execute if entity @s[tag=aj.mage_hunter.animation.double_slash.playing] run function animated_java:mage_hunter/animations/double_slash/zzz/on_tick
 execute if entity @s[tag=aj.mage_hunter.animation.cross_slash.playing] run function animated_java:mage_hunter/animations/cross_slash/zzz/on_tick
@@ -16,4 +18,6 @@ execute if entity @s[tag=aj.mage_hunter.animation.dodge_back.playing] run functi
 execute if entity @s[tag=aj.mage_hunter.animation.dodge_front.playing] run function animated_java:mage_hunter/animations/dodge_front/zzz/on_tick
 execute if entity @s[tag=aj.mage_hunter.animation.dodge_right.playing] run function animated_java:mage_hunter/animations/dodge_right/zzz/on_tick
 execute if entity @s[tag=aj.mage_hunter.animation.dodge_left.playing] run function animated_java:mage_hunter/animations/dodge_left/zzz/on_tick
+execute on passengers if entity @s[tag=aj.mage_hunter.data] run function animated_java:mage_hunter/root/zzz/on_tick/locators_and_cameras
 execute at @s on passengers run rotate @s ~ ~
+function magic:mobs/hunter/detect_death

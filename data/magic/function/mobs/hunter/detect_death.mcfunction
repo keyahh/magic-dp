@@ -1,0 +1,1 @@
+execute unless entity @s[tag=aj.mage_hunter.animation.die.playing] unless predicate magic:has_vehicle run function magic:mobs/hunter/start_death

@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 data remove storage aj:temp args
 execute store result storage aj:temp args.frame int 1 run scoreboard players get @s aj.thrust2.frame
 function animated_java:mage_hunter/animations/thrust2/zzz/apply_frame with storage aj:temp args
-execute if score @s aj.thrust2.frame matches 34 run return run function animated_java:mage_hunter/animations/thrust2/stop
+execute if score @s aj.thrust2.frame matches 41 run return run function animated_java:mage_hunter/animations/thrust2/stop
 scoreboard players add @s aj.thrust2.frame 1
