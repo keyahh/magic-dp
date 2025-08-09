@@ -4,6 +4,7 @@
 		"animated_java:lich/on_load",
 		"animated_java:lightning/on_load",
 		"animated_java:mage_hunter/on_load",
+		"animated_java:raptor/on_load",
 		"animated_java:ruin_star/on_load",
 		"animated_java:shield/on_load",
 		"animated_java:sword_projectile/on_load",

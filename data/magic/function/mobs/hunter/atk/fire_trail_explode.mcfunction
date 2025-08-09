@@ -1,2 +1,2 @@
-particle flame ~ ~ ~ 0.3 0.3 0.3 0.015 10 force
+particle flame ~ ~ ~ 0.15 0.15 0.15 0.015 4 force
 kill @s

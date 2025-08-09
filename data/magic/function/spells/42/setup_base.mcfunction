@@ -1,0 +1,4 @@
+data merge entity @s {NoGravity:1b,Silent:1b,Tags:["magic","conjuration","raptorBase","newRaptorBase"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:attack_damage",base:0},{id:"minecraft:attack_knockback",base:0},{id:"minecraft:attack_speed",base:0},{id:"minecraft:follow_range",base:0}],equipment:{mainhand:{id:"minecraft:poisonous_potato",count:1,components:{"minecraft:item_model":"air","minecraft:enchantments":{"magic:mobs/raptor_base":1}}}},drop_chances:{mainhand:0.000}}
+#data modify entity @s Owner set from entity @n[type=#magic:magic_user,tag=thisPlayer] UUID
+
+scoreboard players operation @s magic.id = #magicSearch magic.id

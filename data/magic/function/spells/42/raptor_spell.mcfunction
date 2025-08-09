@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Great Raptor Conjuration Spell"},custom_data={spellID:42,sequence:["a","s","a","w","w","w","s","a","d"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"A-S-A-W-W-W-S-A-D"},{"color":"dark_gray","italic":true,"text":"Conjures a large raptor to act as an ally."}]] 1

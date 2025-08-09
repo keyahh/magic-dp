@@ -1,0 +1,2 @@
+scoreboard players operation #magicSearch magic.id = @s magic.id
+#$execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=#magic:targets,predicate=!magic:match_id,dx=0,dy=0,dz=0] unless score @s magic.iframe matches 1.. run damage @s $(dmg) player_attack
