@@ -3,4 +3,4 @@ tag @s remove inRise
 tag @s remove prepDive
 scoreboard players set @s slowcast.maxDist 40
 scoreboard players set @s slowcast.dist 6
-scoreboard players set @s magic.atkCD 50
+scoreboard players set @s magic.atkCD 40

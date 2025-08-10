@@ -1,3 +1,4 @@
+scoreboard players set @s magic.atkCD 20
 scoreboard players operation #magicSearch magic.id = @s magic.id
 
 scoreboard players set #range magic.temp 64

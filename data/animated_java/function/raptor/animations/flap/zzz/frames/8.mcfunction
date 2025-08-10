@@ -10,3 +10,4 @@ $data merge entity $(bone_right_wing) {transformation: [-0.9008f,0.4343f,0f,-0.2
 $data merge entity $(bone_left_wing1) {transformation: [-0.6453f,-0.764f,0f,1.0122f,-0.7635f,0.6449f,-0.0339f,0.6843f,0.0259f,-0.0219f,-0.9994f,0.1935f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_left_wing) {transformation: [-0.9008f,-0.4343f,0f,0.2653f,-0.434f,0.9002f,-0.0339f,0.3057f,0.0147f,-0.0306f,-0.9994f,-0.1305f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(bone_body) {transformation: [-1f,0f,0f,0.0313f,0f,0.9994f,-0.0339f,-0.0625f,0f,-0.0339f,-0.9994f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+execute on vehicle unless entity @s[tag=aj.transforms_only] at @s run function animated_java:raptor/animations/flap/zzz/frames/8_root_commands
