@@ -1,4 +1,5 @@
 scoreboard players operation #magicSearch magic.id = @s magic.id
+effect give @s resistance 1 0 true
 
 #duration
 scoreboard players add @s magic.health 1
