@@ -3,3 +3,4 @@ execute unless entity @s[type=minecraft:item_display,tag=aj.raptor.root] run ret
 tag @s remove aj.raptor.animation.flying_idle.playing
 tag @s remove aj.raptor.animation.flap.playing
 tag @s remove aj.raptor.animation.dive.playing
+tag @s remove aj.raptor.animation.attack.playing

@@ -1,6 +1,8 @@
 scoreboard objectives add magic.id dummy
 scoreboard objectives add magic.uiID dummy
 scoreboard objectives add magic.spellID dummy
+scoreboard objectives add magic.uuid dummy
+scoreboard objectives add magic.targetUUID dummy
 
 scoreboard objectives add magic.setting dummy
 scoreboard players add #magicDestruction magic.setting 0

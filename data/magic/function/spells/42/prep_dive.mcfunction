@@ -1,0 +1,2 @@
+scoreboard players operation #magicSearch magic.uuid = @s magic.targetUUID
+execute anchored eyes facing entity @n[type=#magic:targets,predicate=magic:match_uuid] eyes positioned ^ ^ ^3.5 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ^ ^ ^0.3 ~ ~

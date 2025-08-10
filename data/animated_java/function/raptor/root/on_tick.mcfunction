@@ -4,4 +4,6 @@ execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:g
 execute if entity @s[tag=aj.raptor.animation.flying_idle.playing] run function animated_java:raptor/animations/flying_idle/zzz/on_tick
 execute if entity @s[tag=aj.raptor.animation.flap.playing] run function animated_java:raptor/animations/flap/zzz/on_tick
 execute if entity @s[tag=aj.raptor.animation.dive.playing] run function animated_java:raptor/animations/dive/zzz/on_tick
+execute if entity @s[tag=aj.raptor.animation.attack.playing] run function animated_java:raptor/animations/attack/zzz/on_tick
 execute at @s on passengers run rotate @s ~ ~
+function magic:spells/42/detect_death

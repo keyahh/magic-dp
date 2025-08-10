@@ -5,5 +5,5 @@ execute if score @s aj.tween_duration matches 0 on passengers run data modify en
 data remove storage aj:temp args
 execute store result storage aj:temp args.frame int 1 run scoreboard players get @s aj.dive.frame
 function animated_java:raptor/animations/dive/zzz/apply_frame with storage aj:temp args
-execute if score @s aj.dive.frame matches 24.. run return run function animated_java:raptor/animations/dive/pause
+execute if score @s aj.dive.frame matches 18.. run return run function animated_java:raptor/animations/dive/pause
 scoreboard players add @s aj.dive.frame 1

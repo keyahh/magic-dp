@@ -2,3 +2,4 @@
 scoreboard objectives add aj.flying_idle.frame dummy
 scoreboard objectives add aj.flap.frame dummy
 scoreboard objectives add aj.dive.frame dummy
+scoreboard objectives add aj.attack.frame dummy
