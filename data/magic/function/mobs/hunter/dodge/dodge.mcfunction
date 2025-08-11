@@ -1,3 +1,5 @@
+playsound minecraft:entity.wind_charge.wind_burst master @a ~ ~ ~ 1.2 0.6
+
 tag @s add inDodge
 scoreboard players set @s magic.iframe 6
 

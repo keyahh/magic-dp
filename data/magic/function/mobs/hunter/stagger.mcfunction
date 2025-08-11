@@ -1,6 +1,6 @@
 scoreboard players reset @s magic.stagger
 execute if score @s magic.posture matches ..200 run scoreboard players add @s magic.posture 50
-
+tag @s remove inDodge
 scoreboard players set @s magic.atkCD 40
 tag @s add inAtk
 tag @s add inStagger

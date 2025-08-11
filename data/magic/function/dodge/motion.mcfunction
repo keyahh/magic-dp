@@ -1,4 +1,4 @@
-playsound minecraft:entity.wind_charge.wind_burst master @a ~ ~ ~ 0.6 0.6
+playsound minecraft:entity.wind_charge.wind_burst master @a ~ ~ ~ 0.3 0.6
 
 scoreboard players reset $strength player_motion.api.launch
 execute unless block ~ ~-0.01 ~ #magic:passable run scoreboard players set $strength player_motion.api.launch 15000

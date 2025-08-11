@@ -3,7 +3,7 @@ effect give @s resistance 1 0 true
 
 #duration
 scoreboard players add @s magic.health 1
-execute if score @s magic.health matches 1200.. run return run function magic:spells/42/despawn_raptor
+#execute if score @s magic.health matches 1200.. run return run function magic:spells/42/despawn_raptor
 
 #update
 execute on passengers if entity @s[tag=aj.raptor.root] run rotate @s ~ 0

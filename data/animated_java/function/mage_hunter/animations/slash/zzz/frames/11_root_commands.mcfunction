@@ -2,4 +2,5 @@
 function magic:mobs/hunter/motion/lock_rotation
 execute if entity @p[distance=..3.5] run scoreboard players set #magicMotion magic.temp 1
 execute unless entity @p[distance=..3.5] run scoreboard players set #magicMotion magic.temp 2
+playsound minecraft:entity.player.attack.sweep master @a ~ ~ ~ 1 1.6
 function magic:mobs/hunter/motion/launch

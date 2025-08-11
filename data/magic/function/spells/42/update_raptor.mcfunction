@@ -18,5 +18,4 @@ execute if entity @s[tag=!inDive,tag=!inRise] at @n[type=#magic:magic_user,predi
 execute on passengers if entity @s[tag=raptorWolf] on owner run tag @s add thisPlayer
 execute unless score @s magic.atkCD matches 1.. at @n[type=#magic:magic_user,predicate=magic:match_id] as @e[distance=..30,type=#magic:targets,predicate=!magic:match_id] run function magic:spells/42/mob_check_attacker
 execute on passengers if entity @s[tag=raptorWolf] on owner run tag @s remove thisPlayer
-
-execute if entity @e[type=#magic:targets,tag=raptorTarget] run function magic:spells/42/check_visibility
+execute unless score @s magic.atkCD matches 1.. if entity @e[type=#magic:targets,tag=raptorTarget] run function magic:spells/42/check_visibility
