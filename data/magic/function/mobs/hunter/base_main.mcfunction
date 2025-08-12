@@ -1,6 +1,10 @@
 effect give @s invisibility infinite 0 true
 effect give @s resistance infinite 1 true
 
+#effect give @s[tag=pause] slowness 1 255 true
+#rotate @s[tag=pause] -90 0
+#execute if entity @p[distance=..20,gamemode=survival] run tag @s remove pause
+
 scoreboard players operation #magicSearch magic.id = @s magic.id
 #execute as @e[type=marker,tag=fireTrail,predicate=magic:match_id] at @s run function magic:mobs/hunter/atk/fire_trail_main
 

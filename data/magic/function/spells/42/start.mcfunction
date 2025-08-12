@@ -5,3 +5,4 @@ execute if entity @s[tag=magic.hasRaptor] as @e[type=cow,tag=raptorBase,predicat
 function magic:spells/42/summon_raptor
 tag @s add magic.hasRaptor
 playsound minecraft:entity.evoker.prepare_summon master @a ~ ~ ~ 1.5 2
+playsound minecraft:entity.fox.screech master @a ~ ~ ~ 5 2

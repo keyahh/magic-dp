@@ -1,4 +1,5 @@
 scoreboard players reset @s magic.temp
+tag @s remove inRise
 tag @s add prepDive
 scoreboard players reset #range magic.temp
 
