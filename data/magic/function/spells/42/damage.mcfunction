@@ -1,7 +1,7 @@
 scoreboard players operation #magicSearch magic.id = @s magic.id
 
 tag @s add thisRaptor
-execute positioned ~-0.6 ~-1 ~-0.6 as @e[type=#magic:targets,predicate=!magic:match_id,dx=0.1,dy=0,dz=0.1] unless score @s magic.iframe matches 1.. run damage @s 20 player_attack by @n[type=cow,tag=thisRaptor]
+execute positioned ~-0.6 ~-1 ~-0.6 as @e[type=#magic:targets,predicate=!magic:match_id,dx=0.1,dy=0,dz=0.1] unless score @s magic.iframe matches 1.. run damage @s 25 player_attack by @n[type=cow,tag=thisRaptor]
 tag @s remove thisRaptor
 
 #tag @s add inAtk

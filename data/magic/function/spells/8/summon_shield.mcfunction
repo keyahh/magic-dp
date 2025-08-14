@@ -10,6 +10,7 @@ summon item_display ~ ~-2 ~ {view_range:0f,width:0f,height:0f,teleport_duration:
 summon item_display ~ ~-2 ~ {view_range:0f,width:0f,height:0f,teleport_duration:0,Tags:["magic","shield7","shield","newShield"],Passengers:[{id:"minecraft:shulker",Silent:1b,DeathLootTable:"minecraft:empty",PersistenceRequired:1b,NoAI:1b,AttachFace:0b,Tags:["shield","newShield","magic"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:999999,show_particles:0b}]}]}
 summon item_display ~ ~-2 ~ {view_range:0f,width:0f,height:0f,teleport_duration:0,Tags:["magic","shield8","shield","newShield"],Passengers:[{id:"minecraft:shulker",Silent:1b,DeathLootTable:"minecraft:empty",PersistenceRequired:1b,NoAI:1b,AttachFace:0b,Tags:["shield","newShield","magic"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:999999,show_particles:0b}]}]}
 
+effect give @e[type=shulker,tag=newShield,distance=..5] resistance infinite 1 true
 scoreboard players operation @e[tag=newShield,distance=..5] magic.shieldID = #magicShieldID magic.shieldID
 scoreboard players operation @e[tag=newShield,distance=..5] magic.id = @s magic.id
 tag @e[tag=newShield,distance=..5] remove newShield
