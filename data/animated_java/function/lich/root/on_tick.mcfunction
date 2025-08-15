@@ -2,6 +2,7 @@
 execute unless entity @s[tag=aj.lich.root] run return 0
 execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:global/root/on_load
 execute if entity @s[tag=aj.lich.animation.still.playing] run function animated_java:lich/animations/still/zzz/on_tick
+execute if entity @s[tag=aj.lich.animation.stagger.playing] run function animated_java:lich/animations/stagger/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.die.playing] run function animated_java:lich/animations/die/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.fake_die.playing] run function animated_java:lich/animations/fake_die/zzz/on_tick
 execute if entity @s[tag=aj.lich.animation.pray.playing] run function animated_java:lich/animations/pray/zzz/on_tick

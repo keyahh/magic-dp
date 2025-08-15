@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Animal Summoning Spell"},custom_data={spellID:43,sequence:["s","a","d","a","w"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-A-D-A-W"},{"color":"dark_gray","italic":true,"text":"Summons a random animal."}]] 1

@@ -1,0 +1,31 @@
+execute store result score #rng magic.temp run random value 0..28
+
+execute if score #rng magic.temp matches 0 run return run summon armadillo
+execute if score #rng magic.temp matches 1 run return run summon axolotl
+execute if score #rng magic.temp matches 2 run return run summon bat
+execute if score #rng magic.temp matches 3 run return run summon bee
+execute if score #rng magic.temp matches 4 run return run summon camel
+execute if score #rng magic.temp matches 5 run return run summon cat
+execute if score #rng magic.temp matches 6 run return run summon chicken
+execute if score #rng magic.temp matches 7 run return run summon cod
+execute if score #rng magic.temp matches 8 run return run summon cow
+execute if score #rng magic.temp matches 9 run return run summon dolphin
+execute if score #rng magic.temp matches 10 run return run summon donkey
+execute if score #rng magic.temp matches 11 run return run summon frog
+execute if score #rng magic.temp matches 12 run return run summon fox
+execute if score #rng magic.temp matches 13 run return run summon goat
+execute if score #rng magic.temp matches 14 run return run summon horse
+execute if score #rng magic.temp matches 15 run return run summon llama
+execute if score #rng magic.temp matches 16 run return run summon mule
+execute if score #rng magic.temp matches 17 run return run summon ocelot
+execute if score #rng magic.temp matches 18 run return run summon panda
+execute if score #rng magic.temp matches 19 run return run summon parrot
+execute if score #rng magic.temp matches 20 run return run summon pig
+execute if score #rng magic.temp matches 21 run return run summon polar_bear
+execute if score #rng magic.temp matches 22 run return run summon salmon
+execute if score #rng magic.temp matches 23 run return run summon sheep
+execute if score #rng magic.temp matches 24 run return run summon squid
+execute if score #rng magic.temp matches 25 run return run summon rabbit
+execute if score #rng magic.temp matches 26 run return run summon tropical_fish
+execute if score #rng magic.temp matches 27 run return run summon turtle
+execute if score #rng magic.temp matches 28 run return run summon wolf
