@@ -1,0 +1,9 @@
+particle minecraft:wax_on ^ ^ ^ ^1000000.00000 ^0.00000 ^0 0.000001 0 force
+particle minecraft:wax_on ^ ^ ^ ^766044.44312 ^642787.60969 ^0 0.000001 0 force
+particle minecraft:wax_on ^ ^ ^ ^173648.17767 ^984807.75301 ^0 0.000001 0 force
+particle minecraft:wax_on ^ ^ ^ ^-500000.00000 ^866025.40378 ^0 0.000001 0 force
+particle minecraft:wax_on ^ ^ ^ ^-939692.62079 ^342020.14333 ^0 0.000001 0 force
+particle minecraft:wax_on ^ ^ ^ ^-939692.62079 ^-342020.14333 ^0 0.000001 0 force
+particle minecraft:wax_on ^ ^ ^ ^-500000.00000 ^-866025.40378 ^0 0.000001 0 force
+particle minecraft:wax_on ^ ^ ^ ^173648.17767 ^-984807.75301 ^0 0.000001 0 force
+particle minecraft:wax_on ^ ^ ^ ^766044.44312 ^-642787.60969 ^0 0.000001 0 force

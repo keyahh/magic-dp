@@ -10,7 +10,7 @@ execute unless block ~ ~ ~ #magic:passable run function magic:spells/11/fizzle
 #entity collision
 tag @s add thisSpell
 
-execute positioned ~-0.75 ~-0.75 ~-0.75 as @e[type=#magic:proj_spell,tag=conjuration,dx=0.5,dy=0.5,dz=0.5,distance=..5] at @s run function magic:spells/11/banish
+execute positioned ~-0.75 ~-0.75 ~-0.75 as @e[type=#magic:conjuration_spell,tag=conjuration,dx=0.5,dy=0.5,dz=0.5,distance=..5] at @s run function magic:spells/11/banish
 
 tag @s remove thisSpell
 

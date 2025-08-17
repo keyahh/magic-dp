@@ -1,6 +1,6 @@
 scoreboard players operation @s magic.id = #magicSearch magic.id
-scoreboard players set @s slowcast.dist 10
-scoreboard players set @s slowcast.maxDist 30
+scoreboard players set @s slowcast.dist 5
+scoreboard players set @s slowcast.maxDist 40
 
 tag @s add magic
 tag @s add newMagic

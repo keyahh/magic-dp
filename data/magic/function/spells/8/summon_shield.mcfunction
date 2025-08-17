@@ -10,9 +10,11 @@ summon item_display ~ ~-2 ~ {view_range:0f,width:0f,height:0f,teleport_duration:
 summon item_display ~ ~-2 ~ {view_range:0f,width:0f,height:0f,teleport_duration:0,Tags:["magic","shield7","shield","newShield"],Passengers:[{id:"minecraft:shulker",Silent:1b,DeathLootTable:"minecraft:empty",PersistenceRequired:1b,NoAI:1b,AttachFace:0b,Tags:["shield","newShield","magic"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:999999,show_particles:0b}]}]}
 summon item_display ~ ~-2 ~ {view_range:0f,width:0f,height:0f,teleport_duration:0,Tags:["magic","shield8","shield","newShield"],Passengers:[{id:"minecraft:shulker",Silent:1b,DeathLootTable:"minecraft:empty",PersistenceRequired:1b,NoAI:1b,AttachFace:0b,Tags:["shield","newShield","magic"],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:999999,show_particles:0b}]}]}
 
-effect give @e[type=shulker,tag=newShield,distance=..5] resistance infinite 1 true
-scoreboard players operation @e[tag=newShield,distance=..5] magic.shieldID = #magicShieldID magic.shieldID
-scoreboard players operation @e[tag=newShield,distance=..5] magic.id = @s magic.id
-tag @e[tag=newShield,distance=..5] remove newShield
+execute as @e[distance=..5,type=item_display,tag=newShield] run function magic:spells/8/setup_item_display
+
+#effect give @e[type=shulker,tag=newShield,distance=..5] resistance infinite 1 true
+#scoreboard players operation @e[tag=newShield,distance=..5] magic.shieldID = #magicShieldID magic.shieldID
+#scoreboard players operation @e[tag=newShield,distance=..5] magic.id = @s magic.id
+#tag @e[tag=newShield,distance=..5] remove newShield
 
 playsound minecraft:entity.evoker.prepare_attack master @a ~ ~ ~ 2 1.4
