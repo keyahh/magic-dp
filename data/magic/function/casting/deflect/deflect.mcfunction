@@ -7,3 +7,6 @@ scoreboard players reset #magicRange magic.temp
 
 scoreboard players operation @s magic.id = #magicSearch magic.id
 execute rotated as @p[tag=thisPlayer] run rotate @s ~ ~
+
+#allows for consecutive deflects without cooldown
+scoreboard players reset @p[tag=thisPlayer] magic.spellDeflectCD
