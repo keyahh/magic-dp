@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Flame Spell"},custom_data={spellID:39,sequence:["w","d","s","a"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-D-S-A"},{"color":"dark_gray","italic":true,"text":"Shoot a stream of flames. Can be held."}]] 1

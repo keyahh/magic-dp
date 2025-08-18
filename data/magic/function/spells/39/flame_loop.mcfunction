@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=flameSpell] at @s run function magic:spells/39/flame_main

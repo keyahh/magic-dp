@@ -1,0 +1,5 @@
+scoreboard players operation #magicSearch magic.id = @s magic.id
+execute if score @s magic.temp matches 1..5 positioned ~-0.2 ~-0.2 ~-0.2 as @e[type=#magic:targets,predicate=!magic:match_id,dx=0] positioned ~-0.6 ~-0.6 ~-0.6 if entity @s[dx=0] run return run function magic:spells/39/damage
+execute if score @s magic.temp matches 6..10 positioned ~-0.4 ~-0.4 ~-0.4 as @e[type=#magic:targets,predicate=!magic:match_id,dx=0] positioned ~-0.2 ~-0.2 ~-0.2 if entity @s[dx=0] run return run function magic:spells/39/damage
+execute if score @s magic.temp matches 11..15 positioned ~-0.5 ~-0.5 ~-0.5 as @e[type=#magic:targets,predicate=!magic:match_id,dx=0,dy=0,dz=0] run return run function magic:spells/39/damage
+execute if score @s magic.temp matches 16..20 positioned ~-0.6 ~-0.6 ~-0.6 as @e[type=#magic:targets,predicate=!magic:match_id,dx=0.2,dy=0.2,dz=0.2] run return run function magic:spells/39/damage

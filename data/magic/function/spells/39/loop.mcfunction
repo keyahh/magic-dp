@@ -1,0 +1,1 @@
+execute as @e[type=#magic:magic_user] if score @s magic.flameTime matches 1.. at @s run function magic:spells/39/main

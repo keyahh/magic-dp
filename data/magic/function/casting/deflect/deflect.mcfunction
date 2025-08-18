@@ -1,3 +1,5 @@
+scoreboard players add @p[tag=thisPlayer] magic.iframe 2
+
 playsound minecraft:entity.player.attack.weak master @a ~ ~ ~ 2 1
 playsound minecraft:entity.experience_orb.pickup master @a ~ ~ ~ 0.6 2
 

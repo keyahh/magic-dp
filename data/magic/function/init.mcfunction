@@ -40,6 +40,7 @@ scoreboard objectives add magic.batID dummy
 scoreboard objectives add magic.batTime dummy
 scoreboard objectives add magic.cloud dummy
 scoreboard objectives add magic.bloodSlashSide dummy
+scoreboard objectives add magic.flameTime dummy
 
 scoreboard objectives add magic.petrify dummy
 scoreboard objectives add magic.bleed dummy
@@ -67,6 +68,7 @@ scoreboard objectives add maxPhi dummy
 scoreboard objectives add minPhi dummy
 scoreboard objectives add const dummy
 
+scoreboard players set #4 const 4
 scoreboard players set #5 const 5
 scoreboard players set #10 const 10
 scoreboard players set #400 const 400
