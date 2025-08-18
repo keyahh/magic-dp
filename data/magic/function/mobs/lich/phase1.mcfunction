@@ -5,5 +5,3 @@ execute if entity @s[tag=inAtk] run function magic:mobs/wizard/atk/in_atk
 
 #dodge
 execute if entity @s[tag=!inAtk,tag=!inDodge] if entity @p[gamemode=!creative,gamemode=!spectator,distance=..20,scores={magic.castTime=1..}] run function magic:mobs/lich/dodge/dodge
-
-#phase change
