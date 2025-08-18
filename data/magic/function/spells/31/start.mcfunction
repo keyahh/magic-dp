@@ -4,10 +4,7 @@ scoreboard players add @s magic.bloodSlashSide 1
 execute if score @s magic.bloodSlashSide matches 3.. run scoreboard players set @s magic.bloodSlashSide 1
 scoreboard players operation #bloodSlashSide magic.bloodSlashSide = @s magic.bloodSlashSide
 
-execute summon item_display run function magic:spells/31/setup_slash
-
-execute anchored eyes positioned ^ ^-0.3 ^ anchored feet run tp @n[type=item_display,tag=newMagic,distance=..2] ~ ~ ~ ~ ~
-tag @n[type=marker,tag=newMagic,distance=..2] remove newMagic
+execute anchored eyes positioned ^ ^-0.2 ^ anchored feet rotated as @s summon item_display run function magic:spells/31/setup_slash
 
 playsound minecraft:entity.zombie_villager.cure master @a ~ ~ ~ 2 2
 

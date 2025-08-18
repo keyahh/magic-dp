@@ -1,3 +1,5 @@
+rotate @s ~ ~
+
 scoreboard players operation @s magic.id = #magicSearch magic.id
 #function animated_java:cutter/animations/travel/play
 
@@ -8,5 +10,4 @@ scoreboard players set @s slowcast.maxDist 30
 
 tag @s add magic
 tag @s add projSpell
-tag @s add newMagic
 tag @s add cutter

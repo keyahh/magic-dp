@@ -1,3 +1,5 @@
+rotate @s ~ ~
+
 scoreboard players operation @s magic.id = #magicSearch magic.id
 scoreboard players set @s slowcast.dist 6
 scoreboard players set @s slowcast.maxDist 50

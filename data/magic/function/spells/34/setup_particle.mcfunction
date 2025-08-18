@@ -11,6 +11,5 @@ execute store result score @s minPhi run random value -750..0
 execute store result score @s maxPhi run random value 0..750
 
 tag @s add magic
-tag @s add newMagic
 tag @s add darkSpirit
 tag @s add darkSpiritParticle

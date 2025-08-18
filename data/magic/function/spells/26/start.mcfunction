@@ -1,9 +1,6 @@
 scoreboard players operation #magicSearch magic.id = @s magic.id
 
-execute summon marker run function magic:spells/26/setup_piercer
-execute anchored eyes positioned ^ ^-0.3 ^ anchored feet run tp @e[type=marker,tag=newMagic,distance=..2] ~ ~ ~ ~ ~
-rotate @n[type=marker,tag=newMagic,tag=windParticles,distance=..2] ~90 ~
-tag @e[type=marker,tag=newMagic,distance=..2] remove newMagic
+execute anchored eyes positioned ^ ^-0.3 ^ anchored feet rotated as @s summon marker run function magic:spells/26/setup_piercer
 
 playsound minecraft:entity.arrow.shoot master @a ~ ~ ~ 2 1.5
 
