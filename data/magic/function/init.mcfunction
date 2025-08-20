@@ -18,6 +18,7 @@ scoreboard objectives add magic.castTime dummy
 #counts how long player holds right click with wand
 scoreboard objectives add magic.castingTime dummy
 scoreboard objectives add magic.spellDeflectCD dummy
+scoreboard objectives add magic.spellDeflectFrame dummy
 
 scoreboard objectives add magic.iframe dummy
 scoreboard objectives add magic.dmgFrame dummy

@@ -1,2 +1,2 @@
-advancement revoke @s only magic:deflected_spell
+advancement revoke @s only magic:deflect_cd
 scoreboard players reset @s magic.spellDeflectCD

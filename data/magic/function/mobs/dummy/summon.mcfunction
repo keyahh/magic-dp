@@ -1,0 +1,1 @@
+function animated_java:dummy/summon {args:{}}

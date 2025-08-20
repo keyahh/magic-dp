@@ -3,6 +3,7 @@
 	"values": [
 		"minecraft:player",
 		"minecraft:wandering_trader",
-		"minecraft:wither_skeleton"
+		"minecraft:wither_skeleton",
+		"minecraft:husk"
 	]
 }

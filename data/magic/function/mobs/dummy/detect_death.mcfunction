@@ -1,0 +1,1 @@
+execute unless predicate magic:has_vehicle run function animated_java:dummy/remove/this

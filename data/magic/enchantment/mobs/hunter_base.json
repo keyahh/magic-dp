@@ -1,7 +1,6 @@
 {
   "description": "",
   "supported_items": [
-    "minecraft:bow",
     "minecraft:stick"
   ],
   "weight": 1,
@@ -24,14 +23,6 @@
         "effect": {
           "type": "minecraft:run_function",
           "function": "magic:mobs/hunter/base_main"
-        }
-      }
-    ],
-    "minecraft:projectile_spawned": [
-      {
-        "effect": {
-          "type": "minecraft:run_function",
-          "function": "magic:mobs/hunter/kill_arrow"
         }
       }
     ]

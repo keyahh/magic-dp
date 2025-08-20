@@ -6,5 +6,5 @@ execute if score @s aj.spin.frame matches -1 run function animated_java:ruin_sta
 data remove storage aj:temp args
 execute store result storage aj:temp args.frame int 1 run scoreboard players get @s aj.spin.frame
 function animated_java:ruin_star/animations/spin/zzz/apply_frame with storage aj:temp args
-execute if score @s aj.spin.frame matches 16.. run return run scoreboard players set @s aj.spin.frame -1
+execute if score @s aj.spin.frame matches 29.. run return run scoreboard players set @s aj.spin.frame -1
 scoreboard players add @s aj.spin.frame 1

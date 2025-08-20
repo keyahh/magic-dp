@@ -1,4 +1,4 @@
-playsound minecraft:entity.zombie_villager.cure master @a ~ ~ ~ 1 2
+playsound minecraft:entity.zombie_villager.cure master @a ~ ~ ~ 0.6 2
 execute as @n[type=marker,tag=thisSpell] run function magic:spells/11/fizzle
 
 execute if entity @s[tag=sword] run return run function magic:spells/4/banished

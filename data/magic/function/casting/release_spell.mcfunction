@@ -12,7 +12,8 @@ execute if score #historySize magic.temp matches 4.. run function magic:casting/
 
 title @s actionbar {"nbt":"history","storage":"magic:data","color":"yellow"}
 
-execute if score @s magic.castingTime matches ..3 unless score @s magic.spellDeflectCD matches 1.. run function magic:casting/deflect/start_deflect
+#execute if score @s magic.castingTime matches ..3 unless score @s magic.spellDeflectCD matches 1.. run function magic:casting/deflect/start_deflect
+
 function magic:casting/start_spell with storage magic:data
 
 scoreboard players reset @s magic.castingTime
