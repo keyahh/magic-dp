@@ -1,2 +1,7 @@
-damage @s[type=#magic:holy_vulnerable] 52 player_attack by @n[type=#magic:magic_user,tag=thisPlayer]
-damage @s[type=!#magic:holy_vulnerable] 35 player_attack by @n[type=#magic:magic_user,tag=thisPlayer]
+scoreboard players operation #magicSearch magic.id = @s magic.id
+
+tag @n[type=#magic:magic_user,predicate=magic:match_id,tag=thisPlayer] add thisPlayer
+
+execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[distance=..10,type=#magic:targets,predicate=!magic:match_id,distance=..5,dx=0] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] unless score @s magic.iframe matches 1.. run magic:spells/25/hit_entity
+
+tag @n[type=#magic:magic_user,predicate=magic:match_id] remove thisPlayer
