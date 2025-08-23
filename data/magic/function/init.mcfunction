@@ -69,8 +69,10 @@ scoreboard objectives add maxPhi dummy
 scoreboard objectives add minPhi dummy
 scoreboard objectives add const dummy
 
+scoreboard players set #2 const 2
 scoreboard players set #4 const 4
 scoreboard players set #5 const 5
+scoreboard players set #6 const 6
 scoreboard players set #10 const 10
 scoreboard players set #400 const 400
 scoreboard players set #1800 const 1800

@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=pierceSpell] at @s run function magic:spells/44/main

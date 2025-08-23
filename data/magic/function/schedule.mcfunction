@@ -36,3 +36,4 @@ schedule function magic:spells/38/loop 10t append
 schedule function magic:spells/39/loop 1t append
 schedule function magic:spells/39/flame_loop 1t append
 schedule function magic:spells/41/loop 10t append
+schedule function magic:spells/44/loop 1t append

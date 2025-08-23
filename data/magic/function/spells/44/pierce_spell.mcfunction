@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Pierce Spell"},custom_data={spellID:44,sequence:["d","w","a","d","a","w","s"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"D-W-A-D-A-W-S"},{"color":"dark_gray","italic":true,"text":"A concentrated beam capable of piercing through blocks and targets."}]] 1
