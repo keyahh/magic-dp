@@ -1,3 +1,4 @@
+data merge entity @s {interpolation_duration:1,start_interpolation:-1}
 execute if score @s slowcast.maxDist matches 8..9 run function magic:spells/44/shrink
 
 execute store result entity @s transformation.scale[2] float 1 run scoreboard players get @s slowcast.dist
