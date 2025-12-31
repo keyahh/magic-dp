@@ -1,4 +1,5 @@
-particle flame ~ ~ ~ 0.2 0.2 0.2 0.02 1 force
+particle dust{color:[1.000,0.000,0.533],scale:1} ~ ~ ~ 0 0 0 0 1 force
+particle dust{color:[0.329,0.000,0.176],scale:1} ~ ~ ~ 0 0 0 0 1 force
 
 #repositioning
 scoreboard players remove #magicRange slowcast.itt 1

@@ -1,4 +1,3 @@
-say refresh
 execute unless items entity @s container.0 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.0 with air
 execute unless items entity @s container.1 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.1 with air
 execute unless items entity @s container.2 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.2 with air

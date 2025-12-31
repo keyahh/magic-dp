@@ -1,4 +1,3 @@
-tellraw @a "on change"
 clear @a *[minecraft:custom_data~{ui_item:{}}]
 
 data modify storage magic:ui in set from storage magic:ui current
