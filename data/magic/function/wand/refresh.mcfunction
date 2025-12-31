@@ -1,19 +1,4 @@
-#item replace entity @s container.12 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.13 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.14 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.15 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.16 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.17 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.18 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.19 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.20 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.21 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.22 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.23 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.24 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.25 with black_stained_glass_pane[custom_data={ui_item:{}}]
-#item replace entity @s container.26 with black_stained_glass_pane[custom_data={ui_item:{}}]
-
+say refresh
 execute unless items entity @s container.0 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.0 with air
 execute unless items entity @s container.1 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.1 with air
 execute unless items entity @s container.2 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.2 with air
@@ -26,3 +11,18 @@ execute unless items entity @s container.8 *[minecraft:custom_data~{is_spell:1}]
 execute unless items entity @s container.9 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.9 with air
 execute unless items entity @s container.10 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.10 with air
 execute unless items entity @s container.11 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.11 with air
+execute unless items entity @s container.12 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.12 with air
+execute unless items entity @s container.13 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.13 with air
+execute unless items entity @s container.14 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.14 with air
+execute unless items entity @s container.15 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.15 with air
+execute unless items entity @s container.16 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.16 with air
+execute unless items entity @s container.17 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.17 with air
+execute unless items entity @s container.18 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.18 with air
+execute unless items entity @s container.19 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.19 with air
+execute unless items entity @s container.20 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.20 with air
+execute unless items entity @s container.21 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.21 with air
+execute unless items entity @s container.22 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.22 with air
+execute unless items entity @s container.23 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.23 with air
+execute unless items entity @s container.24 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.24 with air
+execute unless items entity @s container.25 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.25 with air
+execute unless items entity @s container.26 *[minecraft:custom_data~{is_spell:1}] run item replace entity @s container.26 with air
