@@ -5,5 +5,6 @@ tag @s add magic
 tag @s add projSpell
 tag @s add lightSpell
 tag @s add light
+tag @s add magicSpell
 
 playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 1.2

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=tetherProj] at @s run function magic:spells/49/proj_main

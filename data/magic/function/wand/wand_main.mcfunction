@@ -1,3 +1,3 @@
-function magic:wand/tp_ui
-
+scoreboard players operation #magicSearch magic.id = @s magic.id
+tp @n[type=item_display,tag=magicUI,predicate=magic:match_id] ~ ~1 ~
 execute unless items entity @s weapon.offhand poisonous_potato[minecraft:custom_data~{is_wand:1}] run function magic:wand/close

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=disembowel] at @s run function magic:spells/46/main

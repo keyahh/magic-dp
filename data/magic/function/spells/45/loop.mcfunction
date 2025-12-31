@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=rend] at @s run function magic:spells/45/rend_main

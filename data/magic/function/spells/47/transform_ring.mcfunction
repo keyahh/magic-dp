@@ -1,0 +1,2 @@
+data merge entity @s {interpolation_duration:10,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[28f,1f,28f]},item:{id:"minecraft:white_dye",count:1,components:{"minecraft:item_model":"magic:earth_ring"}}}
+playsound minecraft:block.bell.use master @a ~ ~ ~ 2 0.1

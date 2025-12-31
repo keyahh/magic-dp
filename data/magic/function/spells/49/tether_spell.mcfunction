@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Mystic Stake Spell"},custom_data={spellID:49,sequence:["a","d","s","d","a"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"A-D-S-D-A"},{"color":"dark_gray","italic":true,"text":"Create a stake that tethers nearby creatures."}]] 1

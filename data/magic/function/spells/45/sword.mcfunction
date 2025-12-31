@@ -1,0 +1,1 @@
+give @p iron_sword[piercing_weapon={deals_knockback:true,dismounts:false,sound:"intentionally_empty",hit_sound:"intentionally_empty"},enchantments={"magic:rend":1},attribute_modifiers=[{id:"attack_speed",type:"attack_speed",amount:4,operation:"add_value"}]] 1

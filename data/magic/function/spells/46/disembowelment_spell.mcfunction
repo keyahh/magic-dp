@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Disembowelment Spell"},custom_data={spellID:46,sequence:["w","a","s","d","a","w","s"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"W-A-S-D-A-W-S"},{"color":"dark_gray","italic":true,"text":"Tear open the target's stomach."}]] 1

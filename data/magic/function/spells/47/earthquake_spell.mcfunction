@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Earthquake Spell"},custom_data={spellID:47,sequence:["s","d","a","d","a","d","w"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-D-A-D-A-D-W"},{"color":"dark_gray","italic":true,"text":"Create a localized earthquake."}]] 1

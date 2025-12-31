@@ -1,3 +1,4 @@
 {
-	"values": ["animated_java:global/on_tick", "magic:main"]
+	"replace": false,
+	"values": ["magic:main", "animated_java:global/on_tick"]
 }

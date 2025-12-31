@@ -7,4 +7,4 @@ execute as @e[type=item_display,tag=shield,predicate=magic:match_id] at @s run f
 tp @e[tag=shield,predicate=magic:match_id,distance=..20] 0 -64 0
 kill @e[tag=shield,predicate=magic:match_id]
 
-execute as @e[type=item_display,tag=shieldDisplay,predicate=magic:match_id] run function animated_java:shield/remove/this
+#execute as @e[type=item_display,tag=shieldDisplay,predicate=magic:match_id] run function animated_java:shield/remove/this

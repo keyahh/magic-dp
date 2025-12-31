@@ -85,6 +85,10 @@
     "minecraft:creaking",
     "minecraft:end_crystal",
     "minecraft:hoglin",
-    "minecraft:zoglin"
+    "minecraft:zoglin",
+    "minecraft:nautilus",
+    "minecraft:zombie_nautilus",
+    "minecraft:parched",
+    "minecraft:camel_husk"
   ]
 }

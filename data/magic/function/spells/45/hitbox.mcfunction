@@ -1,0 +1,1 @@
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[distance=..12,type=#magic:targets,predicate=!magic:match_id,dx=0,dy=0,dz=0] unless score @s magic.iframe matches 1.. positioned ~0.75 ~0.75 ~0.75 run damage @s 40 magic:ignore_defense by @p[tag=thisPlayer]

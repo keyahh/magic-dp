@@ -1,3 +1,3 @@
-playsound minecraft:item.trident.throw master @a ~ ~ ~ 3 0.1
+playsound minecraft:item.trident.throw master @a ~ ~ ~ 1 0.1
 function animated_java:laceration/summon {args:{}}
 kill @s

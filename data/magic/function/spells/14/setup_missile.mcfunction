@@ -6,5 +6,6 @@ scoreboard players set @s slowcast.maxDist 40
 tag @s add magic
 tag @s add magicMissile
 tag @s add projSpell
+tag @s add magicSpell
 
 playsound minecraft:entity.evoker.cast_spell master @a ~ ~ ~ 2 0.85

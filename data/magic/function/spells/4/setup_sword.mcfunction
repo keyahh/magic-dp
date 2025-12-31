@@ -5,3 +5,4 @@ scoreboard players set @s slowcast.dist 6
 tag @s add conjuration
 tag @s add sword
 tag @s add magic
+tag @s add magicSpell

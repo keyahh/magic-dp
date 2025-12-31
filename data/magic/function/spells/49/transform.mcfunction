@@ -1,0 +1,2 @@
+$data modify entity 0000000a-0000-000b-0000-000c0000000d transformation set value [$(x)f,0f,0f,0f,$(y)f,0f,0f,0f,$(z)f,0f,0f,0f,0f,0f,0f,1f]
+execute store result storage magic:temp distance float 1 run data get entity 0000000a-0000-000b-0000-000c0000000d transformation.scale[0]

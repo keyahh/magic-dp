@@ -1,4 +1,4 @@
-data merge entity @s {teleport_duration:2,item_display:"head",Tags:["magic","manaChainHead","manaChain","conjuration"],brightness:{sky:15,block:15},item:{id:"minecraft:blue_dye",count:1,components:{"minecraft:item_model":"magic:mana_chain"}}}
+data merge entity @s {teleport_duration:2,item_display:"head",Tags:["magic","manaChainHead","manaChain","conjuration","magicSpell"],brightness:{sky:15,block:15},item:{id:"minecraft:blue_dye",count:1,components:{"minecraft:item_model":"magic:mana_chain"}}}
 
 scoreboard players operation @s magic.id = #magicSearch magic.id
 scoreboard players operation @s magic.chainID = #chainID magic.chainID

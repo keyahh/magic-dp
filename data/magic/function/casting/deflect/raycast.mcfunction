@@ -1,3 +1,4 @@
+#particle flame ~ ~ ~ 0 0 0 0 1 force
 scoreboard players remove #magicRange magic.temp 1
 
 scoreboard players operation #magicSearch magic.id = @s magic.id

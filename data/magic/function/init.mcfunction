@@ -42,6 +42,7 @@ scoreboard objectives add magic.batTime dummy
 scoreboard objectives add magic.cloud dummy
 scoreboard objectives add magic.bloodSlashSide dummy
 scoreboard objectives add magic.flameTime dummy
+scoreboard objectives add magic.rendTime dummy
 
 scoreboard objectives add magic.petrify dummy
 scoreboard objectives add magic.bleed dummy
@@ -68,6 +69,9 @@ scoreboard objectives add phi dummy
 scoreboard objectives add maxPhi dummy
 scoreboard objectives add minPhi dummy
 scoreboard objectives add const dummy
+scoreboard objectives add x dummy
+scoreboard objectives add y dummy
+scoreboard objectives add z dummy
 
 scoreboard players set #2 const 2
 scoreboard players set #4 const 4
@@ -79,7 +83,8 @@ scoreboard players set #1800 const 1800
 scoreboard players set #3600 const 3600
 
 forceload add 0 0
-summon marker 0 0 0 {UUID:[I;2961,3204,106,81],Tags:["magic","magicClock"]}
+summon marker 0.0 0 0.0 {UUID:[I;2961,3204,106,81],Tags:["magic","magicClock"]}
+summon item_display 0.0 0 0.0 {UUID:[I;10,11,12,13]}
 setblock 0 -64 0 yellow_shulker_box
 execute unless score #spellID magic.spellID matches -2147483646.. run scoreboard players set #spellID magic.spellID -2147483646
 

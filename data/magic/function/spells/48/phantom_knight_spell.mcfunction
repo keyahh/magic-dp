@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Phantasmal Knight Spell"},custom_data={spellID:48,sequence:["s","a","d","w","w","d","s","a","w"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"S-A-D-W-W-D-S-A-W"},{"color":"dark_gray","italic":true,"text":"Conjure a knight to defend you."}]] 1

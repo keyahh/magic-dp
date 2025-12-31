@@ -1,0 +1,8 @@
+rotate @s ~ ~
+data merge entity @s {Silent:1b,DeathLootTable:"magic:empty",PersistenceRequired:1b,NoAI:0b,Health:100f,Tags:["magic","newBase","ghostKnightBase","magicSpell"],equipment:{feet:{id:"minecraft:air",count:1},legs:{id:"minecraft:air",count:1},chest:{id:"minecraft:air",count:1},head:{id:"minecraft:air",count:1},mainhand:{id:"minecraft:poisonous_potato",count:1,components:{"minecraft:item_model":"air","minecraft:enchantments":{"magic:mobs/ghost_knight_base":1}}}},drop_chances:{mainhand:0.000},active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:armor",base:30},{id:"minecraft:armor_toughness",base:12},{id:"minecraft:attack_damage",base:0},{id:"minecraft:attack_knockback",base:0},{id:"minecraft:max_health",base:100},{id:"minecraft:follow_range",base:0},{id:"minecraft:movement_speed",base:0.25}]}
+summon wolf ~ ~ ~ {Invulnerable:1b,Silent:1b,PersistenceRequired:1b,Tags:["magic","ghostKnightWolf","magicSpell"],active_effects:[{id:"minecraft:invisibility",amplifier:5,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:attack_damage",base:0},{id:"minecraft:attack_knockback",base:0},{id:"minecraft:scale",base:0.1}]}
+ride @n[type=wolf,tag=ghostKnightWolf,distance=..1] mount @s
+
+scoreboard players operation @s magic.id = #magicSearch magic.id
+execute on passengers run scoreboard players operation @s magic.id = #magicSearch magic.id
+execute on passengers run data modify entity @s Owner set from entity @n[type=#magic:magic_user,predicate=magic:match_id,tag=!magicSpell] UUID

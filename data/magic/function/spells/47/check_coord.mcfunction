@@ -1,0 +1,1 @@
+$execute positioned $(x) ~ $(z) run function magic:spells/47/check_elevation

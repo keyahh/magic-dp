@@ -1,13 +1,15 @@
 {
+	"replace": false,
 	"values": [
 		"animated_java:dummy/root/on_tick",
+		"animated_java:ghost_knight/root/on_tick",
+		"animated_java:hellfire/root/on_tick",
 		"animated_java:laceration/root/on_tick",
 		"animated_java:lich/root/on_tick",
 		"animated_java:lightning/root/on_tick",
 		"animated_java:mage_hunter/root/on_tick",
 		"animated_java:raptor/root/on_tick",
 		"animated_java:ruin_star/root/on_tick",
-		"animated_java:shield/root/on_tick",
 		"animated_java:sword_projectile/root/on_tick",
 		"animated_java:wizard/root/on_tick"
 	]

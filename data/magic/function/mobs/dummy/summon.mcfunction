@@ -1,1 +1,1 @@
-function animated_java:dummy/summon {args:{}}
+execute rotated ~ 0 run function animated_java:dummy/summon {args:{}}
