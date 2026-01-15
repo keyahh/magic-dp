@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=wormLead] at @s run function magic:spells/40/main

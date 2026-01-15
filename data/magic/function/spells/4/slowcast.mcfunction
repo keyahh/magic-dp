@@ -1,6 +1,6 @@
 #repositioning
 scoreboard players remove #magicRange slowcast.itt 1
-execute if score #magicRange slowcast.itt matches ..0 run function magic:spells/4/reposition
+execute if score #magicRange slowcast.itt matches ..0 run tp @s ~ ~ ~
 
 #block collision
 execute unless block ~ ~ ~ #magic:passable run function magic:spells/4/hit_block

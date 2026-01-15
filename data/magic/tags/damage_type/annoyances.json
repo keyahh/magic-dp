@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:on_fire",
+    "minecraft:in_wall",
+    "minecraft:cramming",
+    "minecraft:drown",
+    "minecraft:lava",
+    "minecraft:hot_floor",
+    "minecraft:campfire"
+  ]
+}

@@ -3,6 +3,6 @@ data modify entity @s data.uuids append from storage animated_java:gu out
 function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.data_data set from storage animated_java:gu out
-execute on vehicle on passengers if entity @s[tag=aj.sword_projectile.node.netherite_sword] run function animated_java:global/gu/get_entity_uuid_string
+execute on vehicle on passengers if entity @s[tag=aj.sword_projectile.node.item_display] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
-data modify entity @s data.uuids_by_name.bone_netherite_sword set from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display set from storage animated_java:gu out

@@ -1,0 +1,2 @@
+execute on vehicle run scoreboard players operation #magicSearch magic.spellID = @s magic.spellID
+execute on vehicle as @e[distance=..20,type=marker,tag=wormLead,predicate=magic:match_spell] at @s run function magic:spells/40/main
