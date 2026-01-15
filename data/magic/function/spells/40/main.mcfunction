@@ -3,7 +3,7 @@ scoreboard players operation #magicSearch magic.spellID = @s magic.spellID
 scoreboard players add @s magic.temp 1
 
 #movement
-execute at @s as @e[type=item_display,tag=wormHead,predicate=magic:match_spell] run function magic:spells/40/move/ik
+#execute at @s as @e[type=item_display,tag=wormHead,predicate=magic:match_spell] run function magic:spells/40/move/ik
 
 scoreboard players set #passable magic.temp 0
 execute if block ~ ~1.5 ~ #magic:passable run scoreboard players set #passable magic.temp 1

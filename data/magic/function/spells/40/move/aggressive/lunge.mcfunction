@@ -1,7 +1,7 @@
 scoreboard players operation #magicSearch magic.id = @s magic.id
 
 summon marker ^ ^0.01 ^10 {Tags:["wormMark"]}
-execute as @e[type=marker,tag=wormMark,limit=1,sort=arbitrary] at @s facing entity @e[type=#magic:priority1,predicate=!magic:match_id,tag=wormTarget,limit=1] feet run tp @s ^ ^1.8 ^1.6
+execute as @e[type=marker,tag=wormMark,limit=1,sort=arbitrary] at @s facing entity @e[type=#magic:priority1,predicate=!magic:match_id,tag=wormTarget,limit=1] feet run tp @s ^ ^1.7 ^1.8
 tp @s ^ ^ ^1.4 facing entity @e[type=marker,tag=wormMark,limit=1,sort=arbitrary] feet
 kill @e[type=marker,tag=wormMark]
 

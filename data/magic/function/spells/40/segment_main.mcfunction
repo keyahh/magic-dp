@@ -6,7 +6,7 @@ scoreboard players set #hasCow magic.temp 0
 execute on passengers if entity @s[type=cow] run scoreboard players set #hasCow magic.temp 1
 
 #damage
-execute positioned ~-1 ~-1 ~-1 as @e[distance=..16,type=#magic:targets,predicate=!magic:match_id,dx=1,dy=1,dz=1] run damage @s 60 minecraft:mob_attack
+execute positioned ~-0.75 ~-0.75 ~-0.75 as @e[distance=..16,type=#magic:targets,predicate=!magic:match_id,dx=0.5,dy=0.5,dz=0.5] run damage @s 60 minecraft:mob_attack
 
 #health
 execute unless block ~ ~1.5 ~ #magic:passable run return -1
