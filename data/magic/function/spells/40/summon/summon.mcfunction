@@ -1,3 +1,4 @@
+playsound minecraft:entity.ravager.roar master @a ~ ~ ~ 2 0
 scoreboard players operation #magicSearch magic.id = @s magic.id
 scoreboard players add #spellID magic.spellID 1
 scoreboard players set #wormLength magic.temp 19

@@ -1,4 +1,4 @@
 tag @s add landed
 tp @s ~ ~ ~
 scoreboard players reset #magicRange slowcast.itt
-scoreboard players set @s slowcast.time 200
+scoreboard players set @s slowcast.time 300

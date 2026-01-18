@@ -9,6 +9,7 @@ schedule function magic:spells/6/loop 1t append
 schedule function magic:spells/8/loop 1t append
 schedule function magic:spells/11/loop 1t append
 schedule function magic:spells/12/loop 1t append
+schedule function magic:spells/12/hp/loop 1t append
 schedule function magic:spells/13/loop 1t append
 schedule function magic:spells/13/flicker/loop 1t append
 schedule function magic:spells/14/loop 1t append
@@ -35,6 +36,7 @@ schedule function magic:spells/37/loop 1t append
 schedule function magic:spells/38/loop 1t append
 schedule function magic:spells/39/loop 1t append
 schedule function magic:spells/39/flame_loop 1t append
+schedule function magic:spells/40/loop 1t append
 schedule function magic:spells/41/loop 1t append
 schedule function magic:spells/44/loop 1t append
 schedule function magic:spells/45/loop 1t append

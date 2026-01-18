@@ -20,7 +20,7 @@
       {
         "effect": {
           "type": "minecraft:run_function",
-          "function": "magic:spells/40/worm_head_main"
+          "function": "magic:spells/40/worm_head_base"
         }
       }
     ]

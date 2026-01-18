@@ -1,0 +1,1 @@
+execute on vehicle at @s run function magic:spells/40/worm_head_main

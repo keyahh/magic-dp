@@ -1,2 +1,1 @@
-execute as @a[tag=hasBats] at @s run function magic:spells/12/main
-execute if entity @a[tag=hasBats] run schedule function magic:spells/12/loop 1t append
+execute as @e[type=marker,tag=batSwarmLead] at @s run function magic:spells/12/lead_main

@@ -1,11 +1,13 @@
+#for holding right click with a wand
+
+particle minecraft:enchant ~ ~ ~ 0 0 0 1 2 normal
+
 data modify storage magic:data history set from entity @s SelectedItem.components."minecraft:custom_data".history
 title @s actionbar {"nbt":"history","storage":"magic:data","color":"yellow"}
 
-#deflecting
-#advancement revoke @s only magic:deflect_tick
-#advancement revoke @s only magic:deflect_cd
-
-#execute unless score @s magic.castingTime matches 1.. unless score @s magic.spellDeflectCD matches 1.. unless score @s magic.spellDeflectFrame matches 1.. run scoreboard players set @s magic.spellDeflectFrame 4
+#interrupt
+execute unless score @s magic.castingTime matches 1.. run scoreboard players reset @s magic.dmgTaken
+execute store result score #spellLength magic.temp if data storage magic:data history
 
 scoreboard players add @s magic.castingTime 1
 

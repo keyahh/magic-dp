@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=batHp] at @s run function magic:spells/12/hp/hp_main

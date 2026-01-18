@@ -4,4 +4,4 @@ execute positioned ~ ~2 ~ summon item_display run function magic:spells/47/setup
 
 scoreboard players set @s magic.hurtCD 15
 
-execute positioned ~-15 ~-3 ~-15 as @e[type=#magic:targets,dx=29,dy=6,dz=29] run damage @s 14 magic:ignore_cooldown
+execute positioned ~-15 ~-3 ~-15 as @e[type=#magic:targets,dx=29,dy=6,dz=29] unless score @s magic.iframe matches 1.. run damage @s 14 magic:ignore_cooldown

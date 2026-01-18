@@ -3,6 +3,7 @@ scoreboard objectives add magic.uiID dummy
 scoreboard objectives add magic.spellID dummy
 scoreboard objectives add magic.uuid dummy
 scoreboard objectives add magic.targetUUID dummy
+scoreboard objectives add magic.dmgTaken minecraft.custom:minecraft.damage_taken
 
 scoreboard objectives add magic.setting dummy
 scoreboard players add #magicDestruction magic.setting 0
@@ -37,7 +38,6 @@ scoreboard objectives add magic.shift minecraft.custom:minecraft.sneak_time
 scoreboard objectives add magic.shieldID dummy
 scoreboard objectives add magic.shieldTime dummy
 scoreboard objectives add magic.chainID dummy
-scoreboard objectives add magic.batID dummy
 scoreboard objectives add magic.batTime dummy
 scoreboard objectives add magic.cloud dummy
 scoreboard objectives add magic.bloodSlashSide dummy
@@ -73,6 +73,7 @@ scoreboard objectives add x dummy
 scoreboard objectives add y dummy
 scoreboard objectives add z dummy
 
+scoreboard players set #-1 const -1
 scoreboard players set #2 const 2
 scoreboard players set #4 const 4
 scoreboard players set #5 const 5
