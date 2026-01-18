@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Earth Wyrm Spell"},custom_data={spellID:39,sequence:["a","d","s","w","s","a","w","d","s","a"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"A-D-S-W-S-A-W-D-S-A"},{"color":"dark_gray","italic":true,"text":"Conjures a giant earth wyrm to attack foes."}]] 1

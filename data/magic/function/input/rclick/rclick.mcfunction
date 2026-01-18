@@ -6,8 +6,12 @@ data modify storage magic:data history set from entity @s SelectedItem.component
 title @s actionbar {"nbt":"history","storage":"magic:data","color":"yellow"}
 
 #interrupt
+scoreboard players reset #spellSize magic.temp
+execute unless score @s magic.castingTime matches 1.. run scoreboard players set @s magic.breakMin 100
 execute unless score @s magic.castingTime matches 1.. run scoreboard players reset @s magic.dmgTaken
-execute store result score #spellLength magic.temp if data storage magic:data history
+execute if score @s magic.breakMin matches ..0 run scoreboard players set @s magic.breakMin 1
+#tellraw @s {"score":{"name":"@s","objective":"magic.breakMin"},"color":"yellow"}
+execute if score @s magic.dmgTaken >= @s magic.breakMin run function magic:casting/force_release
 
 scoreboard players add @s magic.castingTime 1
 

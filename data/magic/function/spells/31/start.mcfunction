@@ -1,4 +1,5 @@
 scoreboard players operation #magicSearch magic.id = @s magic.id
+damage @s[tag=!boss] 4 starve by @s
 
 scoreboard players add @s magic.bloodSlashSide 1
 execute if score @s magic.bloodSlashSide matches 3.. run scoreboard players set @s magic.bloodSlashSide 1

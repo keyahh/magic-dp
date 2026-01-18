@@ -15,7 +15,7 @@ scoreboard players add @s magic.batTime 1
 
 #damage
 scoreboard players add @s magic.temp 1
-execute if score @s magic.temp matches 15.. run function magic:spells/12/attack
+execute if score @s magic.temp matches 20.. run function magic:spells/12/attack
 
 #bats
 execute as @e[type=bat,tag=batSwarm,predicate=magic:match_spell,distance=..15] at @s run function magic:spells/12/bat_main

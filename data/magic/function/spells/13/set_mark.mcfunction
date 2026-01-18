@@ -13,5 +13,5 @@ tag @e[type=block_display,tag=newMagic,distance=..3] remove newMagic
 
 schedule function magic:spells/13/flicker/loop 1t append
 
-playsound minecraft:entity.warden.sonic_charge master @a ~ ~ ~ 5 2
-playsound minecraft:block.conduit.activate master @a ~ ~ ~ 5 2
+playsound minecraft:entity.warden.sonic_charge master @a ~ ~ ~ 8 2
+playsound minecraft:block.conduit.activate master @a ~ ~ ~ 8 2
