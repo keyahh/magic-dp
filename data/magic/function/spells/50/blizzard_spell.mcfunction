@@ -1,0 +1,1 @@
+give @p poisonous_potato[item_model="book",custom_name={"color":"gold","italic":false,"text":"Blizzard Spell"},custom_data={spellID:50,sequence:["a","d","s","d","a"],is_spell:1},!consumable,lore=[{"color":"yellow","italic":false,"text":"A-D-S-D-A"},{"color":"dark_gray","italic":true,"text":"Conjure a blizzard around you."}]] 1

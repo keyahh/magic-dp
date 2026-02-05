@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 71,
+		"pack_format": 88,
 		"description": "magic system by squidgga",
 		"min_format": 88,
 		"max_format": 9999999
@@ -9,7 +9,7 @@
 		"entries": [
 			{
 				"directory": "animated_java",
-				"formats": 71
+				"formats": 88
 			}
 		]
 	}

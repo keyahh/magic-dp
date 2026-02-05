@@ -7,7 +7,7 @@ title @s actionbar {"nbt":"history","storage":"magic:data","color":"yellow"}
 
 #interrupt
 scoreboard players reset #spellSize magic.temp
-execute unless score @s magic.castingTime matches 1.. run scoreboard players set @s magic.breakMin 100
+execute unless score @s magic.castingTime matches 1.. run scoreboard players set @s magic.breakMin 160
 execute unless score @s magic.castingTime matches 1.. run scoreboard players reset @s magic.dmgTaken
 execute if score @s magic.breakMin matches ..0 run scoreboard players set @s magic.breakMin 1
 #tellraw @s {"score":{"name":"@s","objective":"magic.breakMin"},"color":"yellow"}
