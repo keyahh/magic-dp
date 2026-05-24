@@ -6,4 +6,5 @@ execute if entity @p[predicate=magic:match_id,predicate=magic:sneaking] run tag 
 scoreboard players operation @s magic.id = #magicSearch magic.id
 scoreboard players operation @s magic.chainID = #chainID magic.chainID
 
-function magic:spells/9/bezier/setup_ray
+#function magic:spells/9/bezier/setup_ray
+execute summon marker run function magic:spells/9/bezier/setup_ray_mark

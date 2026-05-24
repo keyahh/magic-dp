@@ -1,15 +1,16 @@
 tag @s add manaChain
 tag @s add magic
+tag @s add bezierMark
 scoreboard players operation @s magic.id = #magicSearch magic.id
-scoreboard players operation @s magic.chainID = #magicSearch magic.chainID
+scoreboard players operation @s magic.chainID = #chainID magic.chainID
 
-execute rotated as @p[predicate=magic:match_id] run tp @s ~ ~ ~ ~ ~
-execute positioned ^ ^ ^6 run function magic:spells/9/bezier/rand_midpoint
+#execute rotated as @p[predicate=magic:match_id] run tp @s ~ ~ ~ ~ ~
+#execute positioned ^ ^ ^6 run function magic:spells/9/bezier/rand_midpoint
 
 scoreboard players set #bezierRay bezier.temp 28
-scoreboard players operation #bezierHalfLength bezier.temp = #bezierRay bezier.temp
-scoreboard players operation #bezierHalfLength bezier.temp /= #bezier2 bezier.temp
+#scoreboard players operation #bezierHalfLength bezier.temp = #bezierRay bezier.temp
+#scoreboard players operation #bezierHalfLength bezier.temp /= #bezier2 bezier.temp
 
-execute at @n[type=marker,tag=manaChainAnchor,predicate=magic:match_chain,distance=..10] run tp @s ~ ~ ~
+#execute at @n[type=marker,tag=manaChainAnchor,predicate=magic:match_chain,distance=..10] run tp @s ~ ~ ~
 
 function magic:spells/9/bezier/raycast

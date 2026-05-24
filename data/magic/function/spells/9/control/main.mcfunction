@@ -3,6 +3,8 @@ scoreboard players operation #magicSearch magic.id = @s magic.id
 
 scoreboard players add @s magic.temp 1
 
+execute at @e[type=marker,tag=bezierMark] run particle flame ~ ~ ~ 0 0 0 0 1
+
 execute at @n[type=marker,tag=manaChainLead,predicate=magic:match_chain] as @n[type=item_display,tag=manaChainHead,predicate=magic:match_chain] run function magic:spells/9/control/ik
 #execute as @n[type=item_display,tag=manaChainHead,predicate=magic:match_chain] at @s run function magic:spells/9/control/ik
 
